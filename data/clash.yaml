@@ -5,891 +5,703 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "| 3.25Mb", server: 185.167.117.171, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: "| 3.67Mb", server: 185.167.117.171, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: "| 4.09Mb", server: 152.89.210.105, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: "| 4.20Mb", server: 185.167.117.171, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: "| 4.28Mb", server: 213.183.53.177, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: "| 4.58Mb", server: 213.183.53.200, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: "| 5.48Mb", server: 152.89.210.105, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: "| 6.40Mb", server: 217.30.10.66, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: "| 7.64Mb", server: 217.30.10.67, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
-  - {name: "| 8.43Mb", server: 217.30.10.67, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: "| 9.01Mb", server: 217.30.10.67, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: "|11.23Mb", server: 152.89.210.84, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: "|12.91Mb", server: 217.30.10.66, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: "|28.27Mb", server: 185.167.117.171, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: "|30.23Mb", server: 152.89.210.105, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: "|34.88Mb", server: 152.89.210.105, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: AU_02 TG@peekfun, server: 185.167.116.253, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: AU_29, server: 185.167.116.253, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: CA_187 |96.50Mb, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CA_188 |128.97Mb, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CA_189 |160.09Mb, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CA_190 |118.73Mb, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CA_191 |120.84Mb, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CA_192 |106.27Mb, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CA_193 |159.22Mb, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CA_194 |105.43Mb, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CN_375 | 9.68Mb, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_380 | 8.02Mb, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_381 | 7.75Mb, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_384 | 3.24Mb, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CY_50 TG@peekfun, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: DE_421 |31.46Mb, server: 5.183.179.146, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: DE_422, server: 5.183.179.146, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: DE_422 |23.14Mb, server: 5.183.179.166, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: DE_423 |12.57Mb, server: 5.183.179.166, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: DE_424 |27.11Mb, server: 5.183.179.167, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: DE_443 |19.79Mb, server: 5.183.179.140, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: DE_445 | 5.27Mb, server: 5.183.179.170, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: DE_456 | 5.25Mb, server: 5.183.179.170, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: DE_457 | 3.96Mb, server: 5.183.179.170, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: DE_458 | 5.64Mb, server: 5.183.179.170, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: DE_461 | 4.16Mb, server: 5.183.179.170, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: DE_462 | 5.19Mb, server: 5.183.179.170, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: DE_464 | 5.11Mb, server: 5.183.179.170, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: DE_466 |42.13Mb, server: 5.183.179.146, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: DE_467 |57.12Mb, server: 5.183.179.146, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: DE_469 |41.33Mb, server: 5.183.179.140, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: DE_473 |10.86Mb, server: 5.183.179.170, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: DE_474 | 9.36Mb, server: 5.183.179.166, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: DE_475 |15.40Mb, server: 5.183.179.137, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: DE_476 |15.61Mb, server: 5.183.179.170, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: DE_477 | 5.55Mb, server: 5.183.179.170, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: DE_479 |30.73Mb, server: 5.183.179.167, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: DE_481 |52.29Mb, server: 5.183.179.140, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: DE_482 |10.97Mb, server: 5.183.179.146, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: DE_483 |25.87Mb, server: 5.183.179.167, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: DE_484 |10.43Mb, server: 5.183.179.166, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: DE_488 |23.96Mb, server: 5.183.179.140, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: DE_490 |21.86Mb, server: 5.183.179.140, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: DE_492 |41.31Mb, server: 5.183.179.146, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: DE_494 |10.39Mb, server: 5.183.179.170, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: DE_499 |54.21Mb, server: 5.183.179.146, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: DE_501 |47.55Mb, server: 5.183.179.146, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: DE_502 |27.62Mb, server: 5.183.179.146, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: DE_503 |21.75Mb, server: 5.183.179.140, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: DE_505 |39.04Mb, server: 5.183.179.146, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: DE_508 |44.12Mb, server: 5.183.179.146, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: DE_512 | 6.74Mb, server: 5.183.179.166, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: DE_52 TG@peekfun, server: 5.183.179.170, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: DE_53 TG@peekfun, server: 5.183.179.170, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: DE_534 | 6.53Mb, server: 5.183.179.170, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: DE_54 TG@peekfun, server: 5.183.179.140, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: DE_543 | 4.66Mb, server: 5.183.179.166, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: DE_585 |29.74Mb, server: 5.183.179.166, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: DE_587 |42.59Mb, server: 5.183.179.166, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: DE_588 |53.27Mb, server: 5.183.179.140, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: DE_589 |45.66Mb, server: 5.183.179.140, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: DE_591 |23.93Mb, server: 5.183.179.166, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: DE_592 |23.89Mb, server: 5.183.179.166, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: DE_594 |19.48Mb, server: 5.183.179.166, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: DE_595 | 4.96Mb, server: 5.183.179.170, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: DE_600 |14.22Mb, server: 5.183.179.166, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: DE_601 |34.21Mb, server: 5.183.179.167, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: DE_602 | 9.27Mb, server: 5.183.179.166, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: DE_606 |10.98Mb, server: 5.183.179.166, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: DE_609 |29.39Mb, server: 5.183.179.167, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: DE_610 |36.78Mb, server: 5.183.179.167, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: DE_613 |25.57Mb, server: 5.183.179.167, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: DE_617 | 6.49Mb, server: 5.183.179.166, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: DE_619 |22.56Mb, server: 5.183.179.166, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: GB_246 |33.39Mb, server: 152.89.210.105, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: GB_249 | 4.12Mb, server: 152.89.210.105, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: GB_255 | 4.13Mb, server: 185.167.117.171, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: GB_258 | 5.86Mb, server: 185.167.117.171, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: GB_522, server: 152.89.210.105, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: GB_58 TG@peekfun, server: 152.89.210.84, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: GB_695 |73.23Mb, server: 152.89.210.105, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: GB_696 |72.83Mb, server: 152.89.210.105, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: GB_698 | 6.60Mb, server: 152.89.210.105, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: GB_701 | 5.69Mb, server: 152.89.210.105, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: GB_715 |65.28Mb, server: 152.89.210.105, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: GB_716 | 6.68Mb, server: 152.89.210.105, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: GB_717 |11.10Mb, server: 152.89.210.105, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: GB_719 | 6.66Mb, server: 152.89.210.105, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: GB_721 |34.25Mb, server: 152.89.210.105, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: IN_68 TG@peekfun, server: 172.105.58.152, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: JP_625, server: 172.105.244.165, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: JP_70 TG@peekfun, server: 172.105.244.165, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: JP_72 TG@peekfun, server: 172.105.244.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: JP_73 TG@peekfun, server: 172.105.244.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: JP_74 TG@peekfun, server: 172.105.244.165, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: JP_797 | 3.56Mb, server: 172.105.244.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: LT_25, server: 213.183.53.200, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: LT_658, server: 213.183.53.177, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: LT_866 | 7.20Mb, server: 213.183.63.218, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: LT_869 | 2.85Mb, server: 213.183.63.218, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: LT_875 |41.49Mb, server: 213.183.63.219, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: LT_876 |16.20Mb, server: 213.183.63.218, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: LT_879 |26.81Mb, server: 213.183.63.218, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: LT_88 TG@peekfun, server: 213.183.53.177, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: LT_881 | 4.71Mb, server: 213.183.63.218, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: LT_882 | 5.35Mb, server: 213.183.63.218, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: LT_895 | 5.03Mb, server: 213.183.63.218, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: LT_91 TG@peekfun, server: 213.183.63.218, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: LT_910 | 6.51Mb, server: 213.183.63.218, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: LT_914 |31.66Mb, server: 213.183.63.219, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: LT_920 |12.13Mb, server: 213.183.53.177, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: LT_921 |11.88Mb, server: 213.183.53.177, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: LT_924 |13.69Mb, server: 213.183.53.177, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: LT_925 |15.43Mb, server: 213.183.53.177, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: LT_926 |14.72Mb, server: 213.183.53.177, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: LT_937 | 9.18Mb, server: 213.183.53.177, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: LT_938 | 4.13Mb, server: 213.183.53.177, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: LT_940 |12.09Mb, server: 213.183.53.177, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: LT_941 |16.60Mb, server: 213.183.53.177, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: LT_942 |11.22Mb, server: 213.183.53.177, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: LT_943 |12.09Mb, server: 213.183.53.177, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: LT_944 |40.63Mb, server: 213.183.53.177, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: LT_946 |15.19Mb, server: 213.183.53.177, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: LT_950 |14.10Mb, server: 213.183.53.177, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: LT_954 |73.38Mb, server: 213.183.53.200, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: LT_955 | 9.19Mb, server: 213.183.53.177, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: LT_956 | 3.41Mb, server: 213.183.53.177, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: LT_958 | 7.13Mb, server: 213.183.53.177, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: LT_960 |17.98Mb, server: 213.183.53.177, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: NL_360 | 2.12Mb, server: 213.183.51.171, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: NL_93 TG@peekfun, server: 213.183.51.171, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: NL_94 TG@peekfun, server: 213.183.51.171, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: NL_95 TG@peekfun, server: 213.183.51.171, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: NL_96 TG@peekfun, server: 213.183.51.171, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: NL_970 |26.22Mb, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: NL_98 TG@peekfun, server: 213.183.51.171, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_05, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: Relay_🇸🇬SG-🇨🇦CA_27, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
-  - {name: Relay_🇺🇸US-🇷🇺RU_2136, server: v3.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}, udp: true}
-  - {name: RO_101 TG@peekfun, server: 185.126.116.117, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: RO_102 TG@peekfun, server: 185.126.116.117, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: RO_1035 |33.90Mb, server: 185.126.116.117, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: RO_1036 |33.12Mb, server: 185.126.116.117, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: RO_1042 |22.89Mb, server: 185.126.116.117, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: RO_1047 |34.41Mb, server: 185.126.116.117, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: RO_1048 |17.83Mb, server: 185.126.116.117, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: RO_1050 |10.61Mb, server: 185.126.116.117, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: RO_1052 |29.09Mb, server: 185.126.116.117, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: RO_1054 |37.74Mb, server: 185.126.116.117, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: RO_1059 |28.71Mb, server: 185.126.116.117, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: RO_1068 |28.81Mb, server: 185.126.116.117, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: RO_1078 |21.83Mb, server: 185.126.116.117, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: RU_105 TG@peekfun, server: 217.30.10.66, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: RU_106 TG@peekfun, server: 217.30.10.66, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: RU_107 TG@peekfun, server: 217.30.10.65, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: RU_109 TG@peekfun, server: 217.30.10.66, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: RU_110 TG@peekfun, server: 217.30.10.66, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: RU_112 TG@peekfun, server: 217.30.10.66, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: RU_114 TG@peekfun, server: 217.30.10.67, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: RU_115 TG@peekfun, server: 217.30.10.65, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: RU_116 TG@peekfun, server: 217.30.10.65, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: RU_117 TG@peekfun, server: 217.30.10.66, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: RU_118 TG@peekfun, server: 217.30.10.66, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: RU_119 TG@peekfun, server: 217.30.10.66, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: RU_121 TG@peekfun, server: 217.30.10.65, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: RU_126 TG@peekfun, server: 217.30.10.65, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: RU_128 TG@peekfun, server: 217.30.10.65, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: RU_397 | 4.88Mb, server: 217.30.10.67, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: RU_724, server: 217.30.10.66, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: RU_744, server: 217.30.10.67, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: RU_746, server: 217.30.10.67, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: RU_757, server: 217.30.10.66, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: RU_760, server: 217.30.10.66, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: US_1247 |10.38Mb, server: 158.247.205.87, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1248 | 4.41Mb, server: 158.247.205.87, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1250 | 7.29Mb, server: 158.247.205.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1251 | 8.43Mb, server: 158.247.205.87, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1252 |11.41Mb, server: 158.247.205.87, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_1253 | 9.77Mb, server: 158.247.205.87, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1254 | 9.76Mb, server: 158.247.205.87, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1256 | 8.90Mb, server: 158.247.205.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1258 | 6.55Mb, server: 158.247.205.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1259 |10.00Mb, server: 158.247.205.87, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_1260 |11.27Mb, server: 158.247.205.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_137 TG@peekfun, server: 158.247.199.253, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_138 TG@peekfun, server: 158.247.199.253, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_140 TG@peekfun, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1435, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1552, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1620 | 8.17Mb, server: 38.68.135.19, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1901, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_34, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ZZ_164 TG@peekfun, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_165 TG@peekfun, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_166 TG@peekfun, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_167 TG@peekfun, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_168 TG@peekfun, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ZZ_169 TG@peekfun, server: 169.197.142.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_170 TG@peekfun, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_55, server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ZZ_741, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "| 2.51Mb", server: 213.183.53.177, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: "| 2.72Mb", server: 213.183.53.177, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: "| 2.76Mb", server: 213.183.53.177, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: "| 2.88Mb", server: 213.183.53.200, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: "| 2.90Mb", server: 213.183.53.200, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: "| 2.91Mb", server: 213.183.53.177, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: "| 2.98Mb", server: 213.183.53.200, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: "| 2.99Mb", server: 213.183.53.177, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: "| 3.11Mb", server: 213.183.53.177, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: "| 3.37Mb", server: 213.183.53.177, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: "| 4.00Mb", server: 213.183.53.200, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: "| 4.24Mb", server: 213.183.53.177, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: "| 4.31Mb", server: 213.183.53.177, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: "| 4.71Mb", server: 213.183.53.200, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: "| 4.79Mb", server: 213.183.53.177, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: "| 4.89Mb", server: 5.183.179.167, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: "| 4.95Mb", server: 152.89.210.84, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: "| 5.05Mb", server: 213.183.53.177, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: "| 5.08Mb", server: 213.183.53.177, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: "| 5.10Mb", server: 213.183.53.200, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: "| 5.19Mb", server: 152.89.210.84, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: "| 5.27Mb", server: 213.183.53.177, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: "| 5.49Mb", server: 5.183.179.167, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: "| 6.51Mb", server: 213.183.59.229, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: "| 8.10Mb", server: 152.89.210.105, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: "| 8.19Mb", server: 217.30.10.67, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: "| 8.84Mb", server: 217.30.10.67, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: "|22.87Mb", server: 213.183.53.200, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: "|32.41Mb", server: 152.89.210.84, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: "|59.38Mb", server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: DE_417 | 8.82Mb, server: 5.183.179.166, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: DE_422 |11.22Mb, server: 5.183.179.146, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: DE_424 |21.98Mb, server: 5.183.179.146, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: DE_425 | 3.72Mb, server: 5.183.179.146, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: DE_429 |10.83Mb, server: 5.183.179.146, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: DE_437 |33.11Mb, server: 5.183.179.166, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: DE_440 |34.34Mb, server: 5.183.179.140, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: DE_442 | 7.99Mb, server: 5.183.179.166, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: DE_452 |28.19Mb, server: 5.183.179.146, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: DE_462 | 5.72Mb, server: 5.183.179.166, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: DE_489 |31.36Mb, server: 5.183.179.140, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: DE_492 |22.01Mb, server: 5.183.179.140, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: DE_495 |34.04Mb, server: 5.183.179.146, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: DE_506 |42.30Mb, server: 5.183.179.146, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: DE_511 |23.49Mb, server: 5.183.179.140, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: DE_513 |12.45Mb, server: 5.183.179.170, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: DE_525 | 5.51Mb, server: 5.183.179.170, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: DE_531 |10.53Mb, server: 5.183.179.166, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: DE_532 |11.84Mb, server: 5.183.179.140, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: DE_540 | 6.46Mb, server: 5.183.179.166, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: DE_543 |10.73Mb, server: 5.183.179.170, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: DE_553 |45.60Mb, server: 5.183.179.167, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: DE_557 |51.77Mb, server: 5.183.179.146, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: DE_558 |44.97Mb, server: 5.183.179.146, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: DE_564 |10.57Mb, server: 5.183.179.166, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: DE_612 | 9.43Mb, server: 5.183.179.166, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: DE_617 |14.04Mb, server: 5.183.179.167, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: DE_76 TG@peekfun, server: 5.183.179.166, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: DE_79 TG@peekfun, server: 5.183.179.167, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: DE_83 TG@peekfun, server: 80.78.132.177, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, skip-cert-verify: true, udp: true}
+  - {name: FR_85 TG@peekfun, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: FR_86 TG@peekfun, server: fr-trojan.bonds.id, port: 443, type: trojan, password: 7c9b7560-b0f7-11eb-a397-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: GB_716 |28.28Mb, server: 152.89.210.84, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: GB_739 |30.60Mb, server: 152.89.210.105, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: GB_741 |42.72Mb, server: 152.89.210.105, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: GB_88 TG@peekfun, server: 152.89.210.84, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: GB_94 TG@peekfun, server: de-01.fireplay.io, port: 443, type: trojan, password: lo3TmsNaLWUXpuoE, sni: de-01.fireplay.io, skip-cert-verify: true, udp: true}
+  - {name: HK_99 TG@peekfun, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, sni: www.zx07.top, skip-cert-verify: true, udp: true}
+  - {name: ID_103 TG@peekfun, server: id2-trojan.bonds.id, port: 443, type: trojan, password: 8d4ab0f0-79be-11eb-be0b-1239d0255272, sni: id2-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: IN_104 TG@peekfun, server: 172.105.58.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: IN_105 TG@peekfun, server: 172.105.58.152, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: IR_106 TG@peekfun, server: qwanck.xyz, port: 443, type: trojan, password: 57aa53f3afbd, sni: qwanck.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP_108 TG@peekfun, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
+  - {name: JP_109 TG@peekfun, server: tky3.ssgnode.ga, port: 443, type: trojan, password: bcYWVzLTI1Ni1nY206Q1VuZFNabll23115_5a451f03, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
+  - {name: JP_110 TG@peekfun, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: JP_111 TG@peekfun, server: tky3.ssgnode.ga, port: 443, type: trojan, password: lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
+  - {name: JP_112, server: 139.162.124.250, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: JP_112 TG@peekfun, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82a115db-6e59-4319-973lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
+  - {name: JP_114, server: 172.104.96.170, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: JP_114 TG@peekfun, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82a115db-6e59-4319-9730-8f5638908d59YWVzLTI1Ni1nY2023115_5a451f03, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
+  - {name: LT_1002 |42.91Mb, server: 213.183.53.177, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: LT_1005 | 3.60Mb, server: 213.183.53.177, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: LT_1007 |28.74Mb, server: 213.183.53.177, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: LT_1015 | 3.61Mb, server: 213.183.53.200, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: LT_1019 | 4.33Mb, server: 213.183.53.200, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: LT_1022 | 3.80Mb, server: 213.183.53.200, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: LT_1023 | 3.44Mb, server: 213.183.53.200, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: LT_1026 |12.79Mb, server: 213.183.53.177, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: LT_1027 | 1.87Mb, server: 213.183.53.200, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: LT_117 TG@peekfun, server: 213.183.53.200, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: LT_120 TG@peekfun, server: 213.183.53.177, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: LT_122 | 3.89Mb, server: 213.183.53.177, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: LT_123 TG@peekfun, server: 213.183.53.177, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: LT_124 TG@peekfun, server: 213.183.53.200, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: LT_125 TG@peekfun, server: 213.183.53.177, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: LT_126 TG@peekfun, server: 213.183.53.177, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: LT_135 TG@peekfun, server: 213.183.53.200, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: LT_136 TG@peekfun, server: 213.183.53.200, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: LT_32 | 2.86Mb, server: 213.183.53.200, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: LT_899 | 2.40Mb, server: 213.183.63.218, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: LT_903 |12.98Mb, server: 213.183.63.218, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: LT_915 |11.61Mb, server: 213.183.63.218, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: LT_917 | 4.39Mb, server: 213.183.63.218, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: LT_926 | 7.38Mb, server: 213.183.63.218, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: LT_928 | 2.81Mb, server: 213.183.63.218, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: LT_942 |14.03Mb, server: 213.183.63.218, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: LT_948 | 7.41Mb, server: 213.183.63.218, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: LT_949 | 9.71Mb, server: 213.183.63.218, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: LT_951 |40.35Mb, server: 213.183.63.219, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: LT_954 | 2.26Mb, server: 213.183.63.218, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: LT_963 |36.01Mb, server: 213.183.53.177, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: LT_964 |42.94Mb, server: 213.183.53.177, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: LT_967 |12.68Mb, server: 213.183.53.177, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: LT_968 |12.40Mb, server: 213.183.53.177, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: LT_973 | 7.80Mb, server: 213.183.53.177, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: LT_975 |35.61Mb, server: 213.183.53.177, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: LT_976 |36.35Mb, server: 213.183.53.177, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: LT_977 |18.05Mb, server: 213.183.53.177, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: LT_986 | 5.02Mb, server: 213.183.53.177, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: LT_992 |28.75Mb, server: 213.183.53.177, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: LT_994 |31.54Mb, server: 213.183.53.177, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: LT_995 |27.15Mb, server: 213.183.53.177, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: LT_996 |29.12Mb, server: 213.183.53.177, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: LT_997 |30.07Mb, server: 213.183.53.177, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: LT_998 |36.54Mb, server: 213.183.53.177, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: LT_999 |11.59Mb, server: 213.183.53.177, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: NL_141 TG@peekfun, server: 213.183.51.171, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: NL_146 TG@peekfun, server: 213.183.51.171, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: NL_149 TG@peekfun, server: 213.183.51.171, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: NL_463, server: 213.183.51.171, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: Relay_ |11.64Mb, server: us-02.pickaxe.sh, port: 443, type: trojan, password: Tp1ALMlfUBdkDmkW, sni: us-02.pickaxe.sh, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_113 |25.22Mb, server: jp-scp.licom.ga, port: 13381, type: trojan, password: RURaaF9hKW, sni: jp-scp.licom.ga, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_81 |11.01Mb, server: meet-two.defun.us, port: 443, type: trojan, password: U8s25pwKISqVxHNO, sni: meet-two.defun.us, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_87, server: s162.s2022.xyz, port: 23802, type: trojan, password: f450f309-bd8b-39ad-8bef-6fdf42fe8d94, sni: s162.s2022.xyz, skip-cert-verify: true, udp: true}
+  - {name: RO_1117 | 3.57Mb, server: 185.126.116.117, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: RO_1150 |80.02Mb, server: 62.216.91.232, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: RO_157 TG@peekfun, server: jp.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: jp.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: RO_158 TG@peekfun, server: jp.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: jp.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: RU_162 TG@peekfun, server: 45.153.231.57, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: HhUG0LZD19Ma, udp: true}
+  - {name: RU_501, server: 217.30.10.66, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: SG_149, server: 165.22.53.6, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: SG_150, server: 206.189.156.88, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: SG_165 TG@peekfun, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 4c7985e0-79e8-11eb-b8d3-1239d0255272, sni: sg3-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: SG_166 TG@peekfun, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 97fdf760-7bbf-11eb-8e14-1239d0255272, sni: sg3-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: SG_167 TG@peekfun, server: sg1-trojan.bonds.id, port: 443, type: trojan, password: 5c5ceb40-902b-11eb-945a-1239d0255272, sni: sg1-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: TW_169 TG@peekfun, server: tw.tcpbbr.net, port: 443, type: trojan, password: b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: TW_170 TG@peekfun, server: hinet.xxcv.cc, port: 38443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, sni: hinet.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: TW_171 TG@peekfun, server: 2.58.242.43, port: 443, type: trojan, password: 7a9a3bb7-43b4YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: true, udp: true}
+  - {name: TW_172 TG@peekfun, server: 2.58.242.43, port: 443, type: trojan, password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: true, udp: true}
+  - {name: TW_173 TG@peekfun, server: tw.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: TW_594, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: US_180 TG@peekfun, server: 165.232.169.142, port: 29332, type: ss, cipher: aes-256-cfb, password: 1e5111699c45496da84112f35db665c4, udp: true}
+  - {name: US_186 TG@peekfun, server: 72.167.45.6, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
+  - {name: US_187 TG@peekfun, server: v2losdmit1.doubledou.win, port: 6674, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: v2losdmit1.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: US_188 TG@peekfun, server: 184.168.127.50, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
+  - {name: US_189 TG@peekfun, server: s228.s2022.xyz, port: 42406, type: trojan, password: 3b43ffda-8b5c-3480-87f9-d4b069d7457a, sni: s228.s2022.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_190 TG@peekfun, server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: US_191 TG@peekfun, server: www.tokyo2023.ga, port: 443, type: trojan, password: 4f7dc540-d244-4e64-af21-4b5bb300add3, sni: www.tokyo2023.ga, skip-cert-verify: true, udp: true}
+  - {name: US_193 TG@peekfun, server: us01.straycloud.icu, port: 442, type: trojan, password: 0ac65136-5962-49d6-91f0-138957f6dec9, sni: us01.straycloud.icu, skip-cert-verify: true, udp: true}
+  - {name: US_194 TG@peekfun, server: us-trojan.bonds.id, port: 443, type: trojan, password: ccf1ee40-b4ab-11eb-b421-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: US_195 TG@peekfun, server: s162.s2022.xyz, port: 23802, type: trojan, password: 770c9e92-f51b-3e52-b932-eba13fb56801, sni: s162.s2022.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_197 TG@peekfun, server: v.9051246.xyz, port: 443, type: trojan, password: !<str> 18825786, sni: v.9051246.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_198 TG@peekfun, server: api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, sni: api.mjj-home.com, skip-cert-verify: true, udp: true}
+  - {name: US_200 TG@peekfun, server: 184.168.127.50, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: US_202 TG@peekfun, server: xioix.gq, port: 443, type: trojan, password: 9b7195ba-f029-4d7d-a728-ece6e0fdc363, sni: xioix.gq, skip-cert-verify: true, udp: true}
+  - {name: US_203 TG@peekfun, server: 20.205.98.64, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: US_205 TG@peekfun, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 23115_5a451f03, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
+  - {name: US_2277, server: us-trojan.bonds.id, port: 443, type: trojan, password: 38239dd0-902b-11eb-afc1-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: US_273, server: 72.167.45.6, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: ZA_208 TG@peekfun, server: cera.doubledou.win, port: 4586, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: cera.doubledou.win, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "| 3.25Mb"
-      - "| 3.67Mb"
-      - "| 4.09Mb"
-      - "| 4.20Mb"
-      - "| 4.28Mb"
-      - "| 4.58Mb"
-      - "| 5.48Mb"
-      - "| 6.40Mb"
-      - "| 7.64Mb"
-      - "| 8.43Mb"
-      - "| 9.01Mb"
-      - "|11.23Mb"
-      - "|12.91Mb"
-      - "|28.27Mb"
-      - "|30.23Mb"
-      - "|34.88Mb"
-      - AU_02 TG@peekfun
-      - AU_29
-      - CA_187 |96.50Mb
-      - CA_188 |128.97Mb
-      - CA_189 |160.09Mb
-      - CA_190 |118.73Mb
-      - CA_191 |120.84Mb
-      - CA_192 |106.27Mb
-      - CA_193 |159.22Mb
-      - CA_194 |105.43Mb
-      - CN_375 | 9.68Mb
-      - CN_380 | 8.02Mb
-      - CN_381 | 7.75Mb
-      - CN_384 | 3.24Mb
-      - CY_50 TG@peekfun
-      - DE_421 |31.46Mb
-      - DE_422
-      - DE_422 |23.14Mb
-      - DE_423 |12.57Mb
-      - DE_424 |27.11Mb
-      - DE_443 |19.79Mb
-      - DE_445 | 5.27Mb
-      - DE_456 | 5.25Mb
-      - DE_457 | 3.96Mb
-      - DE_458 | 5.64Mb
-      - DE_461 | 4.16Mb
-      - DE_462 | 5.19Mb
-      - DE_464 | 5.11Mb
-      - DE_466 |42.13Mb
-      - DE_467 |57.12Mb
-      - DE_469 |41.33Mb
-      - DE_473 |10.86Mb
-      - DE_474 | 9.36Mb
-      - DE_475 |15.40Mb
-      - DE_476 |15.61Mb
-      - DE_477 | 5.55Mb
-      - DE_479 |30.73Mb
-      - DE_481 |52.29Mb
-      - DE_482 |10.97Mb
-      - DE_483 |25.87Mb
-      - DE_484 |10.43Mb
-      - DE_488 |23.96Mb
-      - DE_490 |21.86Mb
-      - DE_492 |41.31Mb
-      - DE_494 |10.39Mb
-      - DE_499 |54.21Mb
-      - DE_501 |47.55Mb
-      - DE_502 |27.62Mb
-      - DE_503 |21.75Mb
-      - DE_505 |39.04Mb
-      - DE_508 |44.12Mb
-      - DE_512 | 6.74Mb
-      - DE_52 TG@peekfun
-      - DE_53 TG@peekfun
-      - DE_534 | 6.53Mb
-      - DE_54 TG@peekfun
-      - DE_543 | 4.66Mb
-      - DE_585 |29.74Mb
-      - DE_587 |42.59Mb
-      - DE_588 |53.27Mb
-      - DE_589 |45.66Mb
-      - DE_591 |23.93Mb
-      - DE_592 |23.89Mb
-      - DE_594 |19.48Mb
-      - DE_595 | 4.96Mb
-      - DE_600 |14.22Mb
-      - DE_601 |34.21Mb
-      - DE_602 | 9.27Mb
-      - DE_606 |10.98Mb
-      - DE_609 |29.39Mb
-      - DE_610 |36.78Mb
-      - DE_613 |25.57Mb
-      - DE_617 | 6.49Mb
-      - DE_619 |22.56Mb
-      - GB_246 |33.39Mb
-      - GB_249 | 4.12Mb
-      - GB_255 | 4.13Mb
-      - GB_258 | 5.86Mb
-      - GB_522
-      - GB_58 TG@peekfun
-      - GB_695 |73.23Mb
-      - GB_696 |72.83Mb
-      - GB_698 | 6.60Mb
-      - GB_701 | 5.69Mb
-      - GB_715 |65.28Mb
-      - GB_716 | 6.68Mb
-      - GB_717 |11.10Mb
-      - GB_719 | 6.66Mb
-      - GB_721 |34.25Mb
-      - IN_68 TG@peekfun
-      - JP_625
-      - JP_70 TG@peekfun
-      - JP_72 TG@peekfun
-      - JP_73 TG@peekfun
-      - JP_74 TG@peekfun
-      - JP_797 | 3.56Mb
-      - LT_25
-      - LT_658
-      - LT_866 | 7.20Mb
-      - LT_869 | 2.85Mb
-      - LT_875 |41.49Mb
-      - LT_876 |16.20Mb
-      - LT_879 |26.81Mb
-      - LT_88 TG@peekfun
-      - LT_881 | 4.71Mb
-      - LT_882 | 5.35Mb
-      - LT_895 | 5.03Mb
-      - LT_91 TG@peekfun
-      - LT_910 | 6.51Mb
-      - LT_914 |31.66Mb
-      - LT_920 |12.13Mb
-      - LT_921 |11.88Mb
-      - LT_924 |13.69Mb
-      - LT_925 |15.43Mb
-      - LT_926 |14.72Mb
-      - LT_937 | 9.18Mb
-      - LT_938 | 4.13Mb
-      - LT_940 |12.09Mb
-      - LT_941 |16.60Mb
-      - LT_942 |11.22Mb
-      - LT_943 |12.09Mb
-      - LT_944 |40.63Mb
-      - LT_946 |15.19Mb
-      - LT_950 |14.10Mb
-      - LT_954 |73.38Mb
-      - LT_955 | 9.19Mb
-      - LT_956 | 3.41Mb
-      - LT_958 | 7.13Mb
-      - LT_960 |17.98Mb
-      - NL_360 | 2.12Mb
-      - NL_93 TG@peekfun
-      - NL_94 TG@peekfun
-      - NL_95 TG@peekfun
-      - NL_96 TG@peekfun
-      - NL_970 |26.22Mb
-      - NL_98 TG@peekfun
-      - Relay_🇨🇳CN-🇯🇵JP_05
-      - Relay_🇸🇬SG-🇨🇦CA_27
-      - Relay_🇺🇸US-🇷🇺RU_2136
-      - RO_101 TG@peekfun
-      - RO_102 TG@peekfun
-      - RO_1035 |33.90Mb
-      - RO_1036 |33.12Mb
-      - RO_1042 |22.89Mb
-      - RO_1047 |34.41Mb
-      - RO_1048 |17.83Mb
-      - RO_1050 |10.61Mb
-      - RO_1052 |29.09Mb
-      - RO_1054 |37.74Mb
-      - RO_1059 |28.71Mb
-      - RO_1068 |28.81Mb
-      - RO_1078 |21.83Mb
-      - RU_105 TG@peekfun
-      - RU_106 TG@peekfun
-      - RU_107 TG@peekfun
-      - RU_109 TG@peekfun
-      - RU_110 TG@peekfun
-      - RU_112 TG@peekfun
-      - RU_114 TG@peekfun
-      - RU_115 TG@peekfun
-      - RU_116 TG@peekfun
-      - RU_117 TG@peekfun
-      - RU_118 TG@peekfun
-      - RU_119 TG@peekfun
-      - RU_121 TG@peekfun
-      - RU_126 TG@peekfun
-      - RU_128 TG@peekfun
-      - RU_397 | 4.88Mb
-      - RU_724
-      - RU_744
-      - RU_746
-      - RU_757
-      - RU_760
-      - US_1247 |10.38Mb
-      - US_1248 | 4.41Mb
-      - US_1250 | 7.29Mb
-      - US_1251 | 8.43Mb
-      - US_1252 |11.41Mb
-      - US_1253 | 9.77Mb
-      - US_1254 | 9.76Mb
-      - US_1256 | 8.90Mb
-      - US_1258 | 6.55Mb
-      - US_1259 |10.00Mb
-      - US_1260 |11.27Mb
-      - US_137 TG@peekfun
-      - US_138 TG@peekfun
-      - US_140 TG@peekfun
-      - US_1435
-      - US_1552
-      - US_1620 | 8.17Mb
-      - US_1901
-      - US_34
-      - ZZ_164 TG@peekfun
-      - ZZ_165 TG@peekfun
-      - ZZ_166 TG@peekfun
-      - ZZ_167 TG@peekfun
-      - ZZ_168 TG@peekfun
-      - ZZ_169 TG@peekfun
-      - ZZ_170 TG@peekfun
-      - ZZ_55
-      - ZZ_741
+      - "| 2.51Mb"
+      - "| 2.72Mb"
+      - "| 2.76Mb"
+      - "| 2.88Mb"
+      - "| 2.90Mb"
+      - "| 2.91Mb"
+      - "| 2.98Mb"
+      - "| 2.99Mb"
+      - "| 3.11Mb"
+      - "| 3.37Mb"
+      - "| 4.00Mb"
+      - "| 4.24Mb"
+      - "| 4.31Mb"
+      - "| 4.71Mb"
+      - "| 4.79Mb"
+      - "| 4.89Mb"
+      - "| 4.95Mb"
+      - "| 5.05Mb"
+      - "| 5.08Mb"
+      - "| 5.10Mb"
+      - "| 5.19Mb"
+      - "| 5.27Mb"
+      - "| 5.49Mb"
+      - "| 6.51Mb"
+      - "| 8.10Mb"
+      - "| 8.19Mb"
+      - "| 8.84Mb"
+      - "|22.87Mb"
+      - "|32.41Mb"
+      - "|59.38Mb"
+      - DE_417 | 8.82Mb
+      - DE_422 |11.22Mb
+      - DE_424 |21.98Mb
+      - DE_425 | 3.72Mb
+      - DE_429 |10.83Mb
+      - DE_437 |33.11Mb
+      - DE_440 |34.34Mb
+      - DE_442 | 7.99Mb
+      - DE_452 |28.19Mb
+      - DE_462 | 5.72Mb
+      - DE_489 |31.36Mb
+      - DE_492 |22.01Mb
+      - DE_495 |34.04Mb
+      - DE_506 |42.30Mb
+      - DE_511 |23.49Mb
+      - DE_513 |12.45Mb
+      - DE_525 | 5.51Mb
+      - DE_531 |10.53Mb
+      - DE_532 |11.84Mb
+      - DE_540 | 6.46Mb
+      - DE_543 |10.73Mb
+      - DE_553 |45.60Mb
+      - DE_557 |51.77Mb
+      - DE_558 |44.97Mb
+      - DE_564 |10.57Mb
+      - DE_612 | 9.43Mb
+      - DE_617 |14.04Mb
+      - DE_76 TG@peekfun
+      - DE_79 TG@peekfun
+      - DE_83 TG@peekfun
+      - FR_85 TG@peekfun
+      - FR_86 TG@peekfun
+      - GB_716 |28.28Mb
+      - GB_739 |30.60Mb
+      - GB_741 |42.72Mb
+      - GB_88 TG@peekfun
+      - GB_94 TG@peekfun
+      - HK_99 TG@peekfun
+      - ID_103 TG@peekfun
+      - IN_104 TG@peekfun
+      - IN_105 TG@peekfun
+      - IR_106 TG@peekfun
+      - JP_108 TG@peekfun
+      - JP_109 TG@peekfun
+      - JP_110 TG@peekfun
+      - JP_111 TG@peekfun
+      - JP_112
+      - JP_112 TG@peekfun
+      - JP_114
+      - JP_114 TG@peekfun
+      - LT_1002 |42.91Mb
+      - LT_1005 | 3.60Mb
+      - LT_1007 |28.74Mb
+      - LT_1015 | 3.61Mb
+      - LT_1019 | 4.33Mb
+      - LT_1022 | 3.80Mb
+      - LT_1023 | 3.44Mb
+      - LT_1026 |12.79Mb
+      - LT_1027 | 1.87Mb
+      - LT_117 TG@peekfun
+      - LT_120 TG@peekfun
+      - LT_122 | 3.89Mb
+      - LT_123 TG@peekfun
+      - LT_124 TG@peekfun
+      - LT_125 TG@peekfun
+      - LT_126 TG@peekfun
+      - LT_135 TG@peekfun
+      - LT_136 TG@peekfun
+      - LT_32 | 2.86Mb
+      - LT_899 | 2.40Mb
+      - LT_903 |12.98Mb
+      - LT_915 |11.61Mb
+      - LT_917 | 4.39Mb
+      - LT_926 | 7.38Mb
+      - LT_928 | 2.81Mb
+      - LT_942 |14.03Mb
+      - LT_948 | 7.41Mb
+      - LT_949 | 9.71Mb
+      - LT_951 |40.35Mb
+      - LT_954 | 2.26Mb
+      - LT_963 |36.01Mb
+      - LT_964 |42.94Mb
+      - LT_967 |12.68Mb
+      - LT_968 |12.40Mb
+      - LT_973 | 7.80Mb
+      - LT_975 |35.61Mb
+      - LT_976 |36.35Mb
+      - LT_977 |18.05Mb
+      - LT_986 | 5.02Mb
+      - LT_992 |28.75Mb
+      - LT_994 |31.54Mb
+      - LT_995 |27.15Mb
+      - LT_996 |29.12Mb
+      - LT_997 |30.07Mb
+      - LT_998 |36.54Mb
+      - LT_999 |11.59Mb
+      - NL_141 TG@peekfun
+      - NL_146 TG@peekfun
+      - NL_149 TG@peekfun
+      - NL_463
+      - Relay_ |11.64Mb
+      - Relay_🇯🇵JP-🇯🇵JP_113 |25.22Mb
+      - Relay_🇺🇸US-🇺🇸US_81 |11.01Mb
+      - Relay_🇺🇸US-🇺🇸US_87
+      - RO_1117 | 3.57Mb
+      - RO_1150 |80.02Mb
+      - RO_157 TG@peekfun
+      - RO_158 TG@peekfun
+      - RU_162 TG@peekfun
+      - RU_501
+      - SG_149
+      - SG_150
+      - SG_165 TG@peekfun
+      - SG_166 TG@peekfun
+      - SG_167 TG@peekfun
+      - TW_169 TG@peekfun
+      - TW_170 TG@peekfun
+      - TW_171 TG@peekfun
+      - TW_172 TG@peekfun
+      - TW_173 TG@peekfun
+      - TW_594
+      - US_180 TG@peekfun
+      - US_186 TG@peekfun
+      - US_187 TG@peekfun
+      - US_188 TG@peekfun
+      - US_189 TG@peekfun
+      - US_190 TG@peekfun
+      - US_191 TG@peekfun
+      - US_193 TG@peekfun
+      - US_194 TG@peekfun
+      - US_195 TG@peekfun
+      - US_197 TG@peekfun
+      - US_198 TG@peekfun
+      - US_200 TG@peekfun
+      - US_202 TG@peekfun
+      - US_203 TG@peekfun
+      - US_205 TG@peekfun
+      - US_2277
+      - US_273
+      - ZA_208 TG@peekfun
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "| 3.25Mb"
-      - "| 3.67Mb"
-      - "| 4.09Mb"
-      - "| 4.20Mb"
-      - "| 4.28Mb"
-      - "| 4.58Mb"
-      - "| 5.48Mb"
-      - "| 6.40Mb"
-      - "| 7.64Mb"
-      - "| 8.43Mb"
-      - "| 9.01Mb"
-      - "|11.23Mb"
-      - "|12.91Mb"
-      - "|28.27Mb"
-      - "|30.23Mb"
-      - "|34.88Mb"
-      - AU_02 TG@peekfun
-      - AU_29
-      - CA_187 |96.50Mb
-      - CA_188 |128.97Mb
-      - CA_189 |160.09Mb
-      - CA_190 |118.73Mb
-      - CA_191 |120.84Mb
-      - CA_192 |106.27Mb
-      - CA_193 |159.22Mb
-      - CA_194 |105.43Mb
-      - CN_375 | 9.68Mb
-      - CN_380 | 8.02Mb
-      - CN_381 | 7.75Mb
-      - CN_384 | 3.24Mb
-      - CY_50 TG@peekfun
-      - DE_421 |31.46Mb
-      - DE_422
-      - DE_422 |23.14Mb
-      - DE_423 |12.57Mb
-      - DE_424 |27.11Mb
-      - DE_443 |19.79Mb
-      - DE_445 | 5.27Mb
-      - DE_456 | 5.25Mb
-      - DE_457 | 3.96Mb
-      - DE_458 | 5.64Mb
-      - DE_461 | 4.16Mb
-      - DE_462 | 5.19Mb
-      - DE_464 | 5.11Mb
-      - DE_466 |42.13Mb
-      - DE_467 |57.12Mb
-      - DE_469 |41.33Mb
-      - DE_473 |10.86Mb
-      - DE_474 | 9.36Mb
-      - DE_475 |15.40Mb
-      - DE_476 |15.61Mb
-      - DE_477 | 5.55Mb
-      - DE_479 |30.73Mb
-      - DE_481 |52.29Mb
-      - DE_482 |10.97Mb
-      - DE_483 |25.87Mb
-      - DE_484 |10.43Mb
-      - DE_488 |23.96Mb
-      - DE_490 |21.86Mb
-      - DE_492 |41.31Mb
-      - DE_494 |10.39Mb
-      - DE_499 |54.21Mb
-      - DE_501 |47.55Mb
-      - DE_502 |27.62Mb
-      - DE_503 |21.75Mb
-      - DE_505 |39.04Mb
-      - DE_508 |44.12Mb
-      - DE_512 | 6.74Mb
-      - DE_52 TG@peekfun
-      - DE_53 TG@peekfun
-      - DE_534 | 6.53Mb
-      - DE_54 TG@peekfun
-      - DE_543 | 4.66Mb
-      - DE_585 |29.74Mb
-      - DE_587 |42.59Mb
-      - DE_588 |53.27Mb
-      - DE_589 |45.66Mb
-      - DE_591 |23.93Mb
-      - DE_592 |23.89Mb
-      - DE_594 |19.48Mb
-      - DE_595 | 4.96Mb
-      - DE_600 |14.22Mb
-      - DE_601 |34.21Mb
-      - DE_602 | 9.27Mb
-      - DE_606 |10.98Mb
-      - DE_609 |29.39Mb
-      - DE_610 |36.78Mb
-      - DE_613 |25.57Mb
-      - DE_617 | 6.49Mb
-      - DE_619 |22.56Mb
-      - GB_246 |33.39Mb
-      - GB_249 | 4.12Mb
-      - GB_255 | 4.13Mb
-      - GB_258 | 5.86Mb
-      - GB_522
-      - GB_58 TG@peekfun
-      - GB_695 |73.23Mb
-      - GB_696 |72.83Mb
-      - GB_698 | 6.60Mb
-      - GB_701 | 5.69Mb
-      - GB_715 |65.28Mb
-      - GB_716 | 6.68Mb
-      - GB_717 |11.10Mb
-      - GB_719 | 6.66Mb
-      - GB_721 |34.25Mb
-      - IN_68 TG@peekfun
-      - JP_625
-      - JP_70 TG@peekfun
-      - JP_72 TG@peekfun
-      - JP_73 TG@peekfun
-      - JP_74 TG@peekfun
-      - JP_797 | 3.56Mb
-      - LT_25
-      - LT_658
-      - LT_866 | 7.20Mb
-      - LT_869 | 2.85Mb
-      - LT_875 |41.49Mb
-      - LT_876 |16.20Mb
-      - LT_879 |26.81Mb
-      - LT_88 TG@peekfun
-      - LT_881 | 4.71Mb
-      - LT_882 | 5.35Mb
-      - LT_895 | 5.03Mb
-      - LT_91 TG@peekfun
-      - LT_910 | 6.51Mb
-      - LT_914 |31.66Mb
-      - LT_920 |12.13Mb
-      - LT_921 |11.88Mb
-      - LT_924 |13.69Mb
-      - LT_925 |15.43Mb
-      - LT_926 |14.72Mb
-      - LT_937 | 9.18Mb
-      - LT_938 | 4.13Mb
-      - LT_940 |12.09Mb
-      - LT_941 |16.60Mb
-      - LT_942 |11.22Mb
-      - LT_943 |12.09Mb
-      - LT_944 |40.63Mb
-      - LT_946 |15.19Mb
-      - LT_950 |14.10Mb
-      - LT_954 |73.38Mb
-      - LT_955 | 9.19Mb
-      - LT_956 | 3.41Mb
-      - LT_958 | 7.13Mb
-      - LT_960 |17.98Mb
-      - NL_360 | 2.12Mb
-      - NL_93 TG@peekfun
-      - NL_94 TG@peekfun
-      - NL_95 TG@peekfun
-      - NL_96 TG@peekfun
-      - NL_970 |26.22Mb
-      - NL_98 TG@peekfun
-      - Relay_🇨🇳CN-🇯🇵JP_05
-      - Relay_🇸🇬SG-🇨🇦CA_27
-      - Relay_🇺🇸US-🇷🇺RU_2136
-      - RO_101 TG@peekfun
-      - RO_102 TG@peekfun
-      - RO_1035 |33.90Mb
-      - RO_1036 |33.12Mb
-      - RO_1042 |22.89Mb
-      - RO_1047 |34.41Mb
-      - RO_1048 |17.83Mb
-      - RO_1050 |10.61Mb
-      - RO_1052 |29.09Mb
-      - RO_1054 |37.74Mb
-      - RO_1059 |28.71Mb
-      - RO_1068 |28.81Mb
-      - RO_1078 |21.83Mb
-      - RU_105 TG@peekfun
-      - RU_106 TG@peekfun
-      - RU_107 TG@peekfun
-      - RU_109 TG@peekfun
-      - RU_110 TG@peekfun
-      - RU_112 TG@peekfun
-      - RU_114 TG@peekfun
-      - RU_115 TG@peekfun
-      - RU_116 TG@peekfun
-      - RU_117 TG@peekfun
-      - RU_118 TG@peekfun
-      - RU_119 TG@peekfun
-      - RU_121 TG@peekfun
-      - RU_126 TG@peekfun
-      - RU_128 TG@peekfun
-      - RU_397 | 4.88Mb
-      - RU_724
-      - RU_744
-      - RU_746
-      - RU_757
-      - RU_760
-      - US_1247 |10.38Mb
-      - US_1248 | 4.41Mb
-      - US_1250 | 7.29Mb
-      - US_1251 | 8.43Mb
-      - US_1252 |11.41Mb
-      - US_1253 | 9.77Mb
-      - US_1254 | 9.76Mb
-      - US_1256 | 8.90Mb
-      - US_1258 | 6.55Mb
-      - US_1259 |10.00Mb
-      - US_1260 |11.27Mb
-      - US_137 TG@peekfun
-      - US_138 TG@peekfun
-      - US_140 TG@peekfun
-      - US_1435
-      - US_1552
-      - US_1620 | 8.17Mb
-      - US_1901
-      - US_34
-      - ZZ_164 TG@peekfun
-      - ZZ_165 TG@peekfun
-      - ZZ_166 TG@peekfun
-      - ZZ_167 TG@peekfun
-      - ZZ_168 TG@peekfun
-      - ZZ_169 TG@peekfun
-      - ZZ_170 TG@peekfun
-      - ZZ_55
-      - ZZ_741
+      - "| 2.51Mb"
+      - "| 2.72Mb"
+      - "| 2.76Mb"
+      - "| 2.88Mb"
+      - "| 2.90Mb"
+      - "| 2.91Mb"
+      - "| 2.98Mb"
+      - "| 2.99Mb"
+      - "| 3.11Mb"
+      - "| 3.37Mb"
+      - "| 4.00Mb"
+      - "| 4.24Mb"
+      - "| 4.31Mb"
+      - "| 4.71Mb"
+      - "| 4.79Mb"
+      - "| 4.89Mb"
+      - "| 4.95Mb"
+      - "| 5.05Mb"
+      - "| 5.08Mb"
+      - "| 5.10Mb"
+      - "| 5.19Mb"
+      - "| 5.27Mb"
+      - "| 5.49Mb"
+      - "| 6.51Mb"
+      - "| 8.10Mb"
+      - "| 8.19Mb"
+      - "| 8.84Mb"
+      - "|22.87Mb"
+      - "|32.41Mb"
+      - "|59.38Mb"
+      - DE_417 | 8.82Mb
+      - DE_422 |11.22Mb
+      - DE_424 |21.98Mb
+      - DE_425 | 3.72Mb
+      - DE_429 |10.83Mb
+      - DE_437 |33.11Mb
+      - DE_440 |34.34Mb
+      - DE_442 | 7.99Mb
+      - DE_452 |28.19Mb
+      - DE_462 | 5.72Mb
+      - DE_489 |31.36Mb
+      - DE_492 |22.01Mb
+      - DE_495 |34.04Mb
+      - DE_506 |42.30Mb
+      - DE_511 |23.49Mb
+      - DE_513 |12.45Mb
+      - DE_525 | 5.51Mb
+      - DE_531 |10.53Mb
+      - DE_532 |11.84Mb
+      - DE_540 | 6.46Mb
+      - DE_543 |10.73Mb
+      - DE_553 |45.60Mb
+      - DE_557 |51.77Mb
+      - DE_558 |44.97Mb
+      - DE_564 |10.57Mb
+      - DE_612 | 9.43Mb
+      - DE_617 |14.04Mb
+      - DE_76 TG@peekfun
+      - DE_79 TG@peekfun
+      - DE_83 TG@peekfun
+      - FR_85 TG@peekfun
+      - FR_86 TG@peekfun
+      - GB_716 |28.28Mb
+      - GB_739 |30.60Mb
+      - GB_741 |42.72Mb
+      - GB_88 TG@peekfun
+      - GB_94 TG@peekfun
+      - HK_99 TG@peekfun
+      - ID_103 TG@peekfun
+      - IN_104 TG@peekfun
+      - IN_105 TG@peekfun
+      - IR_106 TG@peekfun
+      - JP_108 TG@peekfun
+      - JP_109 TG@peekfun
+      - JP_110 TG@peekfun
+      - JP_111 TG@peekfun
+      - JP_112
+      - JP_112 TG@peekfun
+      - JP_114
+      - JP_114 TG@peekfun
+      - LT_1002 |42.91Mb
+      - LT_1005 | 3.60Mb
+      - LT_1007 |28.74Mb
+      - LT_1015 | 3.61Mb
+      - LT_1019 | 4.33Mb
+      - LT_1022 | 3.80Mb
+      - LT_1023 | 3.44Mb
+      - LT_1026 |12.79Mb
+      - LT_1027 | 1.87Mb
+      - LT_117 TG@peekfun
+      - LT_120 TG@peekfun
+      - LT_122 | 3.89Mb
+      - LT_123 TG@peekfun
+      - LT_124 TG@peekfun
+      - LT_125 TG@peekfun
+      - LT_126 TG@peekfun
+      - LT_135 TG@peekfun
+      - LT_136 TG@peekfun
+      - LT_32 | 2.86Mb
+      - LT_899 | 2.40Mb
+      - LT_903 |12.98Mb
+      - LT_915 |11.61Mb
+      - LT_917 | 4.39Mb
+      - LT_926 | 7.38Mb
+      - LT_928 | 2.81Mb
+      - LT_942 |14.03Mb
+      - LT_948 | 7.41Mb
+      - LT_949 | 9.71Mb
+      - LT_951 |40.35Mb
+      - LT_954 | 2.26Mb
+      - LT_963 |36.01Mb
+      - LT_964 |42.94Mb
+      - LT_967 |12.68Mb
+      - LT_968 |12.40Mb
+      - LT_973 | 7.80Mb
+      - LT_975 |35.61Mb
+      - LT_976 |36.35Mb
+      - LT_977 |18.05Mb
+      - LT_986 | 5.02Mb
+      - LT_992 |28.75Mb
+      - LT_994 |31.54Mb
+      - LT_995 |27.15Mb
+      - LT_996 |29.12Mb
+      - LT_997 |30.07Mb
+      - LT_998 |36.54Mb
+      - LT_999 |11.59Mb
+      - NL_141 TG@peekfun
+      - NL_146 TG@peekfun
+      - NL_149 TG@peekfun
+      - NL_463
+      - Relay_ |11.64Mb
+      - Relay_🇯🇵JP-🇯🇵JP_113 |25.22Mb
+      - Relay_🇺🇸US-🇺🇸US_81 |11.01Mb
+      - Relay_🇺🇸US-🇺🇸US_87
+      - RO_1117 | 3.57Mb
+      - RO_1150 |80.02Mb
+      - RO_157 TG@peekfun
+      - RO_158 TG@peekfun
+      - RU_162 TG@peekfun
+      - RU_501
+      - SG_149
+      - SG_150
+      - SG_165 TG@peekfun
+      - SG_166 TG@peekfun
+      - SG_167 TG@peekfun
+      - TW_169 TG@peekfun
+      - TW_170 TG@peekfun
+      - TW_171 TG@peekfun
+      - TW_172 TG@peekfun
+      - TW_173 TG@peekfun
+      - TW_594
+      - US_180 TG@peekfun
+      - US_186 TG@peekfun
+      - US_187 TG@peekfun
+      - US_188 TG@peekfun
+      - US_189 TG@peekfun
+      - US_190 TG@peekfun
+      - US_191 TG@peekfun
+      - US_193 TG@peekfun
+      - US_194 TG@peekfun
+      - US_195 TG@peekfun
+      - US_197 TG@peekfun
+      - US_198 TG@peekfun
+      - US_200 TG@peekfun
+      - US_202 TG@peekfun
+      - US_203 TG@peekfun
+      - US_205 TG@peekfun
+      - US_2277
+      - US_273
+      - ZA_208 TG@peekfun
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "| 3.25Mb"
-      - "| 3.67Mb"
-      - "| 4.09Mb"
-      - "| 4.20Mb"
-      - "| 4.28Mb"
-      - "| 4.58Mb"
-      - "| 5.48Mb"
-      - "| 6.40Mb"
-      - "| 7.64Mb"
-      - "| 8.43Mb"
-      - "| 9.01Mb"
-      - "|11.23Mb"
-      - "|12.91Mb"
-      - "|28.27Mb"
-      - "|30.23Mb"
-      - "|34.88Mb"
-      - AU_02 TG@peekfun
-      - AU_29
-      - CA_187 |96.50Mb
-      - CA_188 |128.97Mb
-      - CA_189 |160.09Mb
-      - CA_190 |118.73Mb
-      - CA_191 |120.84Mb
-      - CA_192 |106.27Mb
-      - CA_193 |159.22Mb
-      - CA_194 |105.43Mb
-      - CN_375 | 9.68Mb
-      - CN_380 | 8.02Mb
-      - CN_381 | 7.75Mb
-      - CN_384 | 3.24Mb
-      - CY_50 TG@peekfun
-      - DE_421 |31.46Mb
-      - DE_422
-      - DE_422 |23.14Mb
-      - DE_423 |12.57Mb
-      - DE_424 |27.11Mb
-      - DE_443 |19.79Mb
-      - DE_445 | 5.27Mb
-      - DE_456 | 5.25Mb
-      - DE_457 | 3.96Mb
-      - DE_458 | 5.64Mb
-      - DE_461 | 4.16Mb
-      - DE_462 | 5.19Mb
-      - DE_464 | 5.11Mb
-      - DE_466 |42.13Mb
-      - DE_467 |57.12Mb
-      - DE_469 |41.33Mb
-      - DE_473 |10.86Mb
-      - DE_474 | 9.36Mb
-      - DE_475 |15.40Mb
-      - DE_476 |15.61Mb
-      - DE_477 | 5.55Mb
-      - DE_479 |30.73Mb
-      - DE_481 |52.29Mb
-      - DE_482 |10.97Mb
-      - DE_483 |25.87Mb
-      - DE_484 |10.43Mb
-      - DE_488 |23.96Mb
-      - DE_490 |21.86Mb
-      - DE_492 |41.31Mb
-      - DE_494 |10.39Mb
-      - DE_499 |54.21Mb
-      - DE_501 |47.55Mb
-      - DE_502 |27.62Mb
-      - DE_503 |21.75Mb
-      - DE_505 |39.04Mb
-      - DE_508 |44.12Mb
-      - DE_512 | 6.74Mb
-      - DE_52 TG@peekfun
-      - DE_53 TG@peekfun
-      - DE_534 | 6.53Mb
-      - DE_54 TG@peekfun
-      - DE_543 | 4.66Mb
-      - DE_585 |29.74Mb
-      - DE_587 |42.59Mb
-      - DE_588 |53.27Mb
-      - DE_589 |45.66Mb
-      - DE_591 |23.93Mb
-      - DE_592 |23.89Mb
-      - DE_594 |19.48Mb
-      - DE_595 | 4.96Mb
-      - DE_600 |14.22Mb
-      - DE_601 |34.21Mb
-      - DE_602 | 9.27Mb
-      - DE_606 |10.98Mb
-      - DE_609 |29.39Mb
-      - DE_610 |36.78Mb
-      - DE_613 |25.57Mb
-      - DE_617 | 6.49Mb
-      - DE_619 |22.56Mb
-      - GB_246 |33.39Mb
-      - GB_249 | 4.12Mb
-      - GB_255 | 4.13Mb
-      - GB_258 | 5.86Mb
-      - GB_522
-      - GB_58 TG@peekfun
-      - GB_695 |73.23Mb
-      - GB_696 |72.83Mb
-      - GB_698 | 6.60Mb
-      - GB_701 | 5.69Mb
-      - GB_715 |65.28Mb
-      - GB_716 | 6.68Mb
-      - GB_717 |11.10Mb
-      - GB_719 | 6.66Mb
-      - GB_721 |34.25Mb
-      - IN_68 TG@peekfun
-      - JP_625
-      - JP_70 TG@peekfun
-      - JP_72 TG@peekfun
-      - JP_73 TG@peekfun
-      - JP_74 TG@peekfun
-      - JP_797 | 3.56Mb
-      - LT_25
-      - LT_658
-      - LT_866 | 7.20Mb
-      - LT_869 | 2.85Mb
-      - LT_875 |41.49Mb
-      - LT_876 |16.20Mb
-      - LT_879 |26.81Mb
-      - LT_88 TG@peekfun
-      - LT_881 | 4.71Mb
-      - LT_882 | 5.35Mb
-      - LT_895 | 5.03Mb
-      - LT_91 TG@peekfun
-      - LT_910 | 6.51Mb
-      - LT_914 |31.66Mb
-      - LT_920 |12.13Mb
-      - LT_921 |11.88Mb
-      - LT_924 |13.69Mb
-      - LT_925 |15.43Mb
-      - LT_926 |14.72Mb
-      - LT_937 | 9.18Mb
-      - LT_938 | 4.13Mb
-      - LT_940 |12.09Mb
-      - LT_941 |16.60Mb
-      - LT_942 |11.22Mb
-      - LT_943 |12.09Mb
-      - LT_944 |40.63Mb
-      - LT_946 |15.19Mb
-      - LT_950 |14.10Mb
-      - LT_954 |73.38Mb
-      - LT_955 | 9.19Mb
-      - LT_956 | 3.41Mb
-      - LT_958 | 7.13Mb
-      - LT_960 |17.98Mb
-      - NL_360 | 2.12Mb
-      - NL_93 TG@peekfun
-      - NL_94 TG@peekfun
-      - NL_95 TG@peekfun
-      - NL_96 TG@peekfun
-      - NL_970 |26.22Mb
-      - NL_98 TG@peekfun
-      - Relay_🇨🇳CN-🇯🇵JP_05
-      - Relay_🇸🇬SG-🇨🇦CA_27
-      - Relay_🇺🇸US-🇷🇺RU_2136
-      - RO_101 TG@peekfun
-      - RO_102 TG@peekfun
-      - RO_1035 |33.90Mb
-      - RO_1036 |33.12Mb
-      - RO_1042 |22.89Mb
-      - RO_1047 |34.41Mb
-      - RO_1048 |17.83Mb
-      - RO_1050 |10.61Mb
-      - RO_1052 |29.09Mb
-      - RO_1054 |37.74Mb
-      - RO_1059 |28.71Mb
-      - RO_1068 |28.81Mb
-      - RO_1078 |21.83Mb
-      - RU_105 TG@peekfun
-      - RU_106 TG@peekfun
-      - RU_107 TG@peekfun
-      - RU_109 TG@peekfun
-      - RU_110 TG@peekfun
-      - RU_112 TG@peekfun
-      - RU_114 TG@peekfun
-      - RU_115 TG@peekfun
-      - RU_116 TG@peekfun
-      - RU_117 TG@peekfun
-      - RU_118 TG@peekfun
-      - RU_119 TG@peekfun
-      - RU_121 TG@peekfun
-      - RU_126 TG@peekfun
-      - RU_128 TG@peekfun
-      - RU_397 | 4.88Mb
-      - RU_724
-      - RU_744
-      - RU_746
-      - RU_757
-      - RU_760
-      - US_1247 |10.38Mb
-      - US_1248 | 4.41Mb
-      - US_1250 | 7.29Mb
-      - US_1251 | 8.43Mb
-      - US_1252 |11.41Mb
-      - US_1253 | 9.77Mb
-      - US_1254 | 9.76Mb
-      - US_1256 | 8.90Mb
-      - US_1258 | 6.55Mb
-      - US_1259 |10.00Mb
-      - US_1260 |11.27Mb
-      - US_137 TG@peekfun
-      - US_138 TG@peekfun
-      - US_140 TG@peekfun
-      - US_1435
-      - US_1552
-      - US_1620 | 8.17Mb
-      - US_1901
-      - US_34
-      - ZZ_164 TG@peekfun
-      - ZZ_165 TG@peekfun
-      - ZZ_166 TG@peekfun
-      - ZZ_167 TG@peekfun
-      - ZZ_168 TG@peekfun
-      - ZZ_169 TG@peekfun
-      - ZZ_170 TG@peekfun
-      - ZZ_55
-      - ZZ_741
+      - "| 2.51Mb"
+      - "| 2.72Mb"
+      - "| 2.76Mb"
+      - "| 2.88Mb"
+      - "| 2.90Mb"
+      - "| 2.91Mb"
+      - "| 2.98Mb"
+      - "| 2.99Mb"
+      - "| 3.11Mb"
+      - "| 3.37Mb"
+      - "| 4.00Mb"
+      - "| 4.24Mb"
+      - "| 4.31Mb"
+      - "| 4.71Mb"
+      - "| 4.79Mb"
+      - "| 4.89Mb"
+      - "| 4.95Mb"
+      - "| 5.05Mb"
+      - "| 5.08Mb"
+      - "| 5.10Mb"
+      - "| 5.19Mb"
+      - "| 5.27Mb"
+      - "| 5.49Mb"
+      - "| 6.51Mb"
+      - "| 8.10Mb"
+      - "| 8.19Mb"
+      - "| 8.84Mb"
+      - "|22.87Mb"
+      - "|32.41Mb"
+      - "|59.38Mb"
+      - DE_417 | 8.82Mb
+      - DE_422 |11.22Mb
+      - DE_424 |21.98Mb
+      - DE_425 | 3.72Mb
+      - DE_429 |10.83Mb
+      - DE_437 |33.11Mb
+      - DE_440 |34.34Mb
+      - DE_442 | 7.99Mb
+      - DE_452 |28.19Mb
+      - DE_462 | 5.72Mb
+      - DE_489 |31.36Mb
+      - DE_492 |22.01Mb
+      - DE_495 |34.04Mb
+      - DE_506 |42.30Mb
+      - DE_511 |23.49Mb
+      - DE_513 |12.45Mb
+      - DE_525 | 5.51Mb
+      - DE_531 |10.53Mb
+      - DE_532 |11.84Mb
+      - DE_540 | 6.46Mb
+      - DE_543 |10.73Mb
+      - DE_553 |45.60Mb
+      - DE_557 |51.77Mb
+      - DE_558 |44.97Mb
+      - DE_564 |10.57Mb
+      - DE_612 | 9.43Mb
+      - DE_617 |14.04Mb
+      - DE_76 TG@peekfun
+      - DE_79 TG@peekfun
+      - DE_83 TG@peekfun
+      - FR_85 TG@peekfun
+      - FR_86 TG@peekfun
+      - GB_716 |28.28Mb
+      - GB_739 |30.60Mb
+      - GB_741 |42.72Mb
+      - GB_88 TG@peekfun
+      - GB_94 TG@peekfun
+      - HK_99 TG@peekfun
+      - ID_103 TG@peekfun
+      - IN_104 TG@peekfun
+      - IN_105 TG@peekfun
+      - IR_106 TG@peekfun
+      - JP_108 TG@peekfun
+      - JP_109 TG@peekfun
+      - JP_110 TG@peekfun
+      - JP_111 TG@peekfun
+      - JP_112
+      - JP_112 TG@peekfun
+      - JP_114
+      - JP_114 TG@peekfun
+      - LT_1002 |42.91Mb
+      - LT_1005 | 3.60Mb
+      - LT_1007 |28.74Mb
+      - LT_1015 | 3.61Mb
+      - LT_1019 | 4.33Mb
+      - LT_1022 | 3.80Mb
+      - LT_1023 | 3.44Mb
+      - LT_1026 |12.79Mb
+      - LT_1027 | 1.87Mb
+      - LT_117 TG@peekfun
+      - LT_120 TG@peekfun
+      - LT_122 | 3.89Mb
+      - LT_123 TG@peekfun
+      - LT_124 TG@peekfun
+      - LT_125 TG@peekfun
+      - LT_126 TG@peekfun
+      - LT_135 TG@peekfun
+      - LT_136 TG@peekfun
+      - LT_32 | 2.86Mb
+      - LT_899 | 2.40Mb
+      - LT_903 |12.98Mb
+      - LT_915 |11.61Mb
+      - LT_917 | 4.39Mb
+      - LT_926 | 7.38Mb
+      - LT_928 | 2.81Mb
+      - LT_942 |14.03Mb
+      - LT_948 | 7.41Mb
+      - LT_949 | 9.71Mb
+      - LT_951 |40.35Mb
+      - LT_954 | 2.26Mb
+      - LT_963 |36.01Mb
+      - LT_964 |42.94Mb
+      - LT_967 |12.68Mb
+      - LT_968 |12.40Mb
+      - LT_973 | 7.80Mb
+      - LT_975 |35.61Mb
+      - LT_976 |36.35Mb
+      - LT_977 |18.05Mb
+      - LT_986 | 5.02Mb
+      - LT_992 |28.75Mb
+      - LT_994 |31.54Mb
+      - LT_995 |27.15Mb
+      - LT_996 |29.12Mb
+      - LT_997 |30.07Mb
+      - LT_998 |36.54Mb
+      - LT_999 |11.59Mb
+      - NL_141 TG@peekfun
+      - NL_146 TG@peekfun
+      - NL_149 TG@peekfun
+      - NL_463
+      - Relay_ |11.64Mb
+      - Relay_🇯🇵JP-🇯🇵JP_113 |25.22Mb
+      - Relay_🇺🇸US-🇺🇸US_81 |11.01Mb
+      - Relay_🇺🇸US-🇺🇸US_87
+      - RO_1117 | 3.57Mb
+      - RO_1150 |80.02Mb
+      - RO_157 TG@peekfun
+      - RO_158 TG@peekfun
+      - RU_162 TG@peekfun
+      - RU_501
+      - SG_149
+      - SG_150
+      - SG_165 TG@peekfun
+      - SG_166 TG@peekfun
+      - SG_167 TG@peekfun
+      - TW_169 TG@peekfun
+      - TW_170 TG@peekfun
+      - TW_171 TG@peekfun
+      - TW_172 TG@peekfun
+      - TW_173 TG@peekfun
+      - TW_594
+      - US_180 TG@peekfun
+      - US_186 TG@peekfun
+      - US_187 TG@peekfun
+      - US_188 TG@peekfun
+      - US_189 TG@peekfun
+      - US_190 TG@peekfun
+      - US_191 TG@peekfun
+      - US_193 TG@peekfun
+      - US_194 TG@peekfun
+      - US_195 TG@peekfun
+      - US_197 TG@peekfun
+      - US_198 TG@peekfun
+      - US_200 TG@peekfun
+      - US_202 TG@peekfun
+      - US_203 TG@peekfun
+      - US_205 TG@peekfun
+      - US_2277
+      - US_273
+      - ZA_208 TG@peekfun
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -908,223 +720,176 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "| 3.25Mb"
-      - "| 3.67Mb"
-      - "| 4.09Mb"
-      - "| 4.20Mb"
-      - "| 4.28Mb"
-      - "| 4.58Mb"
-      - "| 5.48Mb"
-      - "| 6.40Mb"
-      - "| 7.64Mb"
-      - "| 8.43Mb"
-      - "| 9.01Mb"
-      - "|11.23Mb"
-      - "|12.91Mb"
-      - "|28.27Mb"
-      - "|30.23Mb"
-      - "|34.88Mb"
-      - AU_02 TG@peekfun
-      - AU_29
-      - CA_187 |96.50Mb
-      - CA_188 |128.97Mb
-      - CA_189 |160.09Mb
-      - CA_190 |118.73Mb
-      - CA_191 |120.84Mb
-      - CA_192 |106.27Mb
-      - CA_193 |159.22Mb
-      - CA_194 |105.43Mb
-      - CN_375 | 9.68Mb
-      - CN_380 | 8.02Mb
-      - CN_381 | 7.75Mb
-      - CN_384 | 3.24Mb
-      - CY_50 TG@peekfun
-      - DE_421 |31.46Mb
-      - DE_422
-      - DE_422 |23.14Mb
-      - DE_423 |12.57Mb
-      - DE_424 |27.11Mb
-      - DE_443 |19.79Mb
-      - DE_445 | 5.27Mb
-      - DE_456 | 5.25Mb
-      - DE_457 | 3.96Mb
-      - DE_458 | 5.64Mb
-      - DE_461 | 4.16Mb
-      - DE_462 | 5.19Mb
-      - DE_464 | 5.11Mb
-      - DE_466 |42.13Mb
-      - DE_467 |57.12Mb
-      - DE_469 |41.33Mb
-      - DE_473 |10.86Mb
-      - DE_474 | 9.36Mb
-      - DE_475 |15.40Mb
-      - DE_476 |15.61Mb
-      - DE_477 | 5.55Mb
-      - DE_479 |30.73Mb
-      - DE_481 |52.29Mb
-      - DE_482 |10.97Mb
-      - DE_483 |25.87Mb
-      - DE_484 |10.43Mb
-      - DE_488 |23.96Mb
-      - DE_490 |21.86Mb
-      - DE_492 |41.31Mb
-      - DE_494 |10.39Mb
-      - DE_499 |54.21Mb
-      - DE_501 |47.55Mb
-      - DE_502 |27.62Mb
-      - DE_503 |21.75Mb
-      - DE_505 |39.04Mb
-      - DE_508 |44.12Mb
-      - DE_512 | 6.74Mb
-      - DE_52 TG@peekfun
-      - DE_53 TG@peekfun
-      - DE_534 | 6.53Mb
-      - DE_54 TG@peekfun
-      - DE_543 | 4.66Mb
-      - DE_585 |29.74Mb
-      - DE_587 |42.59Mb
-      - DE_588 |53.27Mb
-      - DE_589 |45.66Mb
-      - DE_591 |23.93Mb
-      - DE_592 |23.89Mb
-      - DE_594 |19.48Mb
-      - DE_595 | 4.96Mb
-      - DE_600 |14.22Mb
-      - DE_601 |34.21Mb
-      - DE_602 | 9.27Mb
-      - DE_606 |10.98Mb
-      - DE_609 |29.39Mb
-      - DE_610 |36.78Mb
-      - DE_613 |25.57Mb
-      - DE_617 | 6.49Mb
-      - DE_619 |22.56Mb
-      - GB_246 |33.39Mb
-      - GB_249 | 4.12Mb
-      - GB_255 | 4.13Mb
-      - GB_258 | 5.86Mb
-      - GB_522
-      - GB_58 TG@peekfun
-      - GB_695 |73.23Mb
-      - GB_696 |72.83Mb
-      - GB_698 | 6.60Mb
-      - GB_701 | 5.69Mb
-      - GB_715 |65.28Mb
-      - GB_716 | 6.68Mb
-      - GB_717 |11.10Mb
-      - GB_719 | 6.66Mb
-      - GB_721 |34.25Mb
-      - IN_68 TG@peekfun
-      - JP_625
-      - JP_70 TG@peekfun
-      - JP_72 TG@peekfun
-      - JP_73 TG@peekfun
-      - JP_74 TG@peekfun
-      - JP_797 | 3.56Mb
-      - LT_25
-      - LT_658
-      - LT_866 | 7.20Mb
-      - LT_869 | 2.85Mb
-      - LT_875 |41.49Mb
-      - LT_876 |16.20Mb
-      - LT_879 |26.81Mb
-      - LT_88 TG@peekfun
-      - LT_881 | 4.71Mb
-      - LT_882 | 5.35Mb
-      - LT_895 | 5.03Mb
-      - LT_91 TG@peekfun
-      - LT_910 | 6.51Mb
-      - LT_914 |31.66Mb
-      - LT_920 |12.13Mb
-      - LT_921 |11.88Mb
-      - LT_924 |13.69Mb
-      - LT_925 |15.43Mb
-      - LT_926 |14.72Mb
-      - LT_937 | 9.18Mb
-      - LT_938 | 4.13Mb
-      - LT_940 |12.09Mb
-      - LT_941 |16.60Mb
-      - LT_942 |11.22Mb
-      - LT_943 |12.09Mb
-      - LT_944 |40.63Mb
-      - LT_946 |15.19Mb
-      - LT_950 |14.10Mb
-      - LT_954 |73.38Mb
-      - LT_955 | 9.19Mb
-      - LT_956 | 3.41Mb
-      - LT_958 | 7.13Mb
-      - LT_960 |17.98Mb
-      - NL_360 | 2.12Mb
-      - NL_93 TG@peekfun
-      - NL_94 TG@peekfun
-      - NL_95 TG@peekfun
-      - NL_96 TG@peekfun
-      - NL_970 |26.22Mb
-      - NL_98 TG@peekfun
-      - Relay_🇨🇳CN-🇯🇵JP_05
-      - Relay_🇸🇬SG-🇨🇦CA_27
-      - Relay_🇺🇸US-🇷🇺RU_2136
-      - RO_101 TG@peekfun
-      - RO_102 TG@peekfun
-      - RO_1035 |33.90Mb
-      - RO_1036 |33.12Mb
-      - RO_1042 |22.89Mb
-      - RO_1047 |34.41Mb
-      - RO_1048 |17.83Mb
-      - RO_1050 |10.61Mb
-      - RO_1052 |29.09Mb
-      - RO_1054 |37.74Mb
-      - RO_1059 |28.71Mb
-      - RO_1068 |28.81Mb
-      - RO_1078 |21.83Mb
-      - RU_105 TG@peekfun
-      - RU_106 TG@peekfun
-      - RU_107 TG@peekfun
-      - RU_109 TG@peekfun
-      - RU_110 TG@peekfun
-      - RU_112 TG@peekfun
-      - RU_114 TG@peekfun
-      - RU_115 TG@peekfun
-      - RU_116 TG@peekfun
-      - RU_117 TG@peekfun
-      - RU_118 TG@peekfun
-      - RU_119 TG@peekfun
-      - RU_121 TG@peekfun
-      - RU_126 TG@peekfun
-      - RU_128 TG@peekfun
-      - RU_397 | 4.88Mb
-      - RU_724
-      - RU_744
-      - RU_746
-      - RU_757
-      - RU_760
-      - US_1247 |10.38Mb
-      - US_1248 | 4.41Mb
-      - US_1250 | 7.29Mb
-      - US_1251 | 8.43Mb
-      - US_1252 |11.41Mb
-      - US_1253 | 9.77Mb
-      - US_1254 | 9.76Mb
-      - US_1256 | 8.90Mb
-      - US_1258 | 6.55Mb
-      - US_1259 |10.00Mb
-      - US_1260 |11.27Mb
-      - US_137 TG@peekfun
-      - US_138 TG@peekfun
-      - US_140 TG@peekfun
-      - US_1435
-      - US_1552
-      - US_1620 | 8.17Mb
-      - US_1901
-      - US_34
-      - ZZ_164 TG@peekfun
-      - ZZ_165 TG@peekfun
-      - ZZ_166 TG@peekfun
-      - ZZ_167 TG@peekfun
-      - ZZ_168 TG@peekfun
-      - ZZ_169 TG@peekfun
-      - ZZ_170 TG@peekfun
-      - ZZ_55
-      - ZZ_741
+      - "| 2.51Mb"
+      - "| 2.72Mb"
+      - "| 2.76Mb"
+      - "| 2.88Mb"
+      - "| 2.90Mb"
+      - "| 2.91Mb"
+      - "| 2.98Mb"
+      - "| 2.99Mb"
+      - "| 3.11Mb"
+      - "| 3.37Mb"
+      - "| 4.00Mb"
+      - "| 4.24Mb"
+      - "| 4.31Mb"
+      - "| 4.71Mb"
+      - "| 4.79Mb"
+      - "| 4.89Mb"
+      - "| 4.95Mb"
+      - "| 5.05Mb"
+      - "| 5.08Mb"
+      - "| 5.10Mb"
+      - "| 5.19Mb"
+      - "| 5.27Mb"
+      - "| 5.49Mb"
+      - "| 6.51Mb"
+      - "| 8.10Mb"
+      - "| 8.19Mb"
+      - "| 8.84Mb"
+      - "|22.87Mb"
+      - "|32.41Mb"
+      - "|59.38Mb"
+      - DE_417 | 8.82Mb
+      - DE_422 |11.22Mb
+      - DE_424 |21.98Mb
+      - DE_425 | 3.72Mb
+      - DE_429 |10.83Mb
+      - DE_437 |33.11Mb
+      - DE_440 |34.34Mb
+      - DE_442 | 7.99Mb
+      - DE_452 |28.19Mb
+      - DE_462 | 5.72Mb
+      - DE_489 |31.36Mb
+      - DE_492 |22.01Mb
+      - DE_495 |34.04Mb
+      - DE_506 |42.30Mb
+      - DE_511 |23.49Mb
+      - DE_513 |12.45Mb
+      - DE_525 | 5.51Mb
+      - DE_531 |10.53Mb
+      - DE_532 |11.84Mb
+      - DE_540 | 6.46Mb
+      - DE_543 |10.73Mb
+      - DE_553 |45.60Mb
+      - DE_557 |51.77Mb
+      - DE_558 |44.97Mb
+      - DE_564 |10.57Mb
+      - DE_612 | 9.43Mb
+      - DE_617 |14.04Mb
+      - DE_76 TG@peekfun
+      - DE_79 TG@peekfun
+      - DE_83 TG@peekfun
+      - FR_85 TG@peekfun
+      - FR_86 TG@peekfun
+      - GB_716 |28.28Mb
+      - GB_739 |30.60Mb
+      - GB_741 |42.72Mb
+      - GB_88 TG@peekfun
+      - GB_94 TG@peekfun
+      - HK_99 TG@peekfun
+      - ID_103 TG@peekfun
+      - IN_104 TG@peekfun
+      - IN_105 TG@peekfun
+      - IR_106 TG@peekfun
+      - JP_108 TG@peekfun
+      - JP_109 TG@peekfun
+      - JP_110 TG@peekfun
+      - JP_111 TG@peekfun
+      - JP_112
+      - JP_112 TG@peekfun
+      - JP_114
+      - JP_114 TG@peekfun
+      - LT_1002 |42.91Mb
+      - LT_1005 | 3.60Mb
+      - LT_1007 |28.74Mb
+      - LT_1015 | 3.61Mb
+      - LT_1019 | 4.33Mb
+      - LT_1022 | 3.80Mb
+      - LT_1023 | 3.44Mb
+      - LT_1026 |12.79Mb
+      - LT_1027 | 1.87Mb
+      - LT_117 TG@peekfun
+      - LT_120 TG@peekfun
+      - LT_122 | 3.89Mb
+      - LT_123 TG@peekfun
+      - LT_124 TG@peekfun
+      - LT_125 TG@peekfun
+      - LT_126 TG@peekfun
+      - LT_135 TG@peekfun
+      - LT_136 TG@peekfun
+      - LT_32 | 2.86Mb
+      - LT_899 | 2.40Mb
+      - LT_903 |12.98Mb
+      - LT_915 |11.61Mb
+      - LT_917 | 4.39Mb
+      - LT_926 | 7.38Mb
+      - LT_928 | 2.81Mb
+      - LT_942 |14.03Mb
+      - LT_948 | 7.41Mb
+      - LT_949 | 9.71Mb
+      - LT_951 |40.35Mb
+      - LT_954 | 2.26Mb
+      - LT_963 |36.01Mb
+      - LT_964 |42.94Mb
+      - LT_967 |12.68Mb
+      - LT_968 |12.40Mb
+      - LT_973 | 7.80Mb
+      - LT_975 |35.61Mb
+      - LT_976 |36.35Mb
+      - LT_977 |18.05Mb
+      - LT_986 | 5.02Mb
+      - LT_992 |28.75Mb
+      - LT_994 |31.54Mb
+      - LT_995 |27.15Mb
+      - LT_996 |29.12Mb
+      - LT_997 |30.07Mb
+      - LT_998 |36.54Mb
+      - LT_999 |11.59Mb
+      - NL_141 TG@peekfun
+      - NL_146 TG@peekfun
+      - NL_149 TG@peekfun
+      - NL_463
+      - Relay_ |11.64Mb
+      - Relay_🇯🇵JP-🇯🇵JP_113 |25.22Mb
+      - Relay_🇺🇸US-🇺🇸US_81 |11.01Mb
+      - Relay_🇺🇸US-🇺🇸US_87
+      - RO_1117 | 3.57Mb
+      - RO_1150 |80.02Mb
+      - RO_157 TG@peekfun
+      - RO_158 TG@peekfun
+      - RU_162 TG@peekfun
+      - RU_501
+      - SG_149
+      - SG_150
+      - SG_165 TG@peekfun
+      - SG_166 TG@peekfun
+      - SG_167 TG@peekfun
+      - TW_169 TG@peekfun
+      - TW_170 TG@peekfun
+      - TW_171 TG@peekfun
+      - TW_172 TG@peekfun
+      - TW_173 TG@peekfun
+      - TW_594
+      - US_180 TG@peekfun
+      - US_186 TG@peekfun
+      - US_187 TG@peekfun
+      - US_188 TG@peekfun
+      - US_189 TG@peekfun
+      - US_190 TG@peekfun
+      - US_191 TG@peekfun
+      - US_193 TG@peekfun
+      - US_194 TG@peekfun
+      - US_195 TG@peekfun
+      - US_197 TG@peekfun
+      - US_198 TG@peekfun
+      - US_200 TG@peekfun
+      - US_202 TG@peekfun
+      - US_203 TG@peekfun
+      - US_205 TG@peekfun
+      - US_2277
+      - US_273
+      - ZA_208 TG@peekfun
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -1135,668 +900,527 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "| 3.25Mb"
-      - "| 3.67Mb"
-      - "| 4.09Mb"
-      - "| 4.20Mb"
-      - "| 4.28Mb"
-      - "| 4.58Mb"
-      - "| 5.48Mb"
-      - "| 6.40Mb"
-      - "| 7.64Mb"
-      - "| 8.43Mb"
-      - "| 9.01Mb"
-      - "|11.23Mb"
-      - "|12.91Mb"
-      - "|28.27Mb"
-      - "|30.23Mb"
-      - "|34.88Mb"
-      - AU_02 TG@peekfun
-      - AU_29
-      - CA_187 |96.50Mb
-      - CA_188 |128.97Mb
-      - CA_189 |160.09Mb
-      - CA_190 |118.73Mb
-      - CA_191 |120.84Mb
-      - CA_192 |106.27Mb
-      - CA_193 |159.22Mb
-      - CA_194 |105.43Mb
-      - CN_375 | 9.68Mb
-      - CN_380 | 8.02Mb
-      - CN_381 | 7.75Mb
-      - CN_384 | 3.24Mb
-      - CY_50 TG@peekfun
-      - DE_421 |31.46Mb
-      - DE_422
-      - DE_422 |23.14Mb
-      - DE_423 |12.57Mb
-      - DE_424 |27.11Mb
-      - DE_443 |19.79Mb
-      - DE_445 | 5.27Mb
-      - DE_456 | 5.25Mb
-      - DE_457 | 3.96Mb
-      - DE_458 | 5.64Mb
-      - DE_461 | 4.16Mb
-      - DE_462 | 5.19Mb
-      - DE_464 | 5.11Mb
-      - DE_466 |42.13Mb
-      - DE_467 |57.12Mb
-      - DE_469 |41.33Mb
-      - DE_473 |10.86Mb
-      - DE_474 | 9.36Mb
-      - DE_475 |15.40Mb
-      - DE_476 |15.61Mb
-      - DE_477 | 5.55Mb
-      - DE_479 |30.73Mb
-      - DE_481 |52.29Mb
-      - DE_482 |10.97Mb
-      - DE_483 |25.87Mb
-      - DE_484 |10.43Mb
-      - DE_488 |23.96Mb
-      - DE_490 |21.86Mb
-      - DE_492 |41.31Mb
-      - DE_494 |10.39Mb
-      - DE_499 |54.21Mb
-      - DE_501 |47.55Mb
-      - DE_502 |27.62Mb
-      - DE_503 |21.75Mb
-      - DE_505 |39.04Mb
-      - DE_508 |44.12Mb
-      - DE_512 | 6.74Mb
-      - DE_52 TG@peekfun
-      - DE_53 TG@peekfun
-      - DE_534 | 6.53Mb
-      - DE_54 TG@peekfun
-      - DE_543 | 4.66Mb
-      - DE_585 |29.74Mb
-      - DE_587 |42.59Mb
-      - DE_588 |53.27Mb
-      - DE_589 |45.66Mb
-      - DE_591 |23.93Mb
-      - DE_592 |23.89Mb
-      - DE_594 |19.48Mb
-      - DE_595 | 4.96Mb
-      - DE_600 |14.22Mb
-      - DE_601 |34.21Mb
-      - DE_602 | 9.27Mb
-      - DE_606 |10.98Mb
-      - DE_609 |29.39Mb
-      - DE_610 |36.78Mb
-      - DE_613 |25.57Mb
-      - DE_617 | 6.49Mb
-      - DE_619 |22.56Mb
-      - GB_246 |33.39Mb
-      - GB_249 | 4.12Mb
-      - GB_255 | 4.13Mb
-      - GB_258 | 5.86Mb
-      - GB_522
-      - GB_58 TG@peekfun
-      - GB_695 |73.23Mb
-      - GB_696 |72.83Mb
-      - GB_698 | 6.60Mb
-      - GB_701 | 5.69Mb
-      - GB_715 |65.28Mb
-      - GB_716 | 6.68Mb
-      - GB_717 |11.10Mb
-      - GB_719 | 6.66Mb
-      - GB_721 |34.25Mb
-      - IN_68 TG@peekfun
-      - JP_625
-      - JP_70 TG@peekfun
-      - JP_72 TG@peekfun
-      - JP_73 TG@peekfun
-      - JP_74 TG@peekfun
-      - JP_797 | 3.56Mb
-      - LT_25
-      - LT_658
-      - LT_866 | 7.20Mb
-      - LT_869 | 2.85Mb
-      - LT_875 |41.49Mb
-      - LT_876 |16.20Mb
-      - LT_879 |26.81Mb
-      - LT_88 TG@peekfun
-      - LT_881 | 4.71Mb
-      - LT_882 | 5.35Mb
-      - LT_895 | 5.03Mb
-      - LT_91 TG@peekfun
-      - LT_910 | 6.51Mb
-      - LT_914 |31.66Mb
-      - LT_920 |12.13Mb
-      - LT_921 |11.88Mb
-      - LT_924 |13.69Mb
-      - LT_925 |15.43Mb
-      - LT_926 |14.72Mb
-      - LT_937 | 9.18Mb
-      - LT_938 | 4.13Mb
-      - LT_940 |12.09Mb
-      - LT_941 |16.60Mb
-      - LT_942 |11.22Mb
-      - LT_943 |12.09Mb
-      - LT_944 |40.63Mb
-      - LT_946 |15.19Mb
-      - LT_950 |14.10Mb
-      - LT_954 |73.38Mb
-      - LT_955 | 9.19Mb
-      - LT_956 | 3.41Mb
-      - LT_958 | 7.13Mb
-      - LT_960 |17.98Mb
-      - NL_360 | 2.12Mb
-      - NL_93 TG@peekfun
-      - NL_94 TG@peekfun
-      - NL_95 TG@peekfun
-      - NL_96 TG@peekfun
-      - NL_970 |26.22Mb
-      - NL_98 TG@peekfun
-      - Relay_🇨🇳CN-🇯🇵JP_05
-      - Relay_🇸🇬SG-🇨🇦CA_27
-      - Relay_🇺🇸US-🇷🇺RU_2136
-      - RO_101 TG@peekfun
-      - RO_102 TG@peekfun
-      - RO_1035 |33.90Mb
-      - RO_1036 |33.12Mb
-      - RO_1042 |22.89Mb
-      - RO_1047 |34.41Mb
-      - RO_1048 |17.83Mb
-      - RO_1050 |10.61Mb
-      - RO_1052 |29.09Mb
-      - RO_1054 |37.74Mb
-      - RO_1059 |28.71Mb
-      - RO_1068 |28.81Mb
-      - RO_1078 |21.83Mb
-      - RU_105 TG@peekfun
-      - RU_106 TG@peekfun
-      - RU_107 TG@peekfun
-      - RU_109 TG@peekfun
-      - RU_110 TG@peekfun
-      - RU_112 TG@peekfun
-      - RU_114 TG@peekfun
-      - RU_115 TG@peekfun
-      - RU_116 TG@peekfun
-      - RU_117 TG@peekfun
-      - RU_118 TG@peekfun
-      - RU_119 TG@peekfun
-      - RU_121 TG@peekfun
-      - RU_126 TG@peekfun
-      - RU_128 TG@peekfun
-      - RU_397 | 4.88Mb
-      - RU_724
-      - RU_744
-      - RU_746
-      - RU_757
-      - RU_760
-      - US_1247 |10.38Mb
-      - US_1248 | 4.41Mb
-      - US_1250 | 7.29Mb
-      - US_1251 | 8.43Mb
-      - US_1252 |11.41Mb
-      - US_1253 | 9.77Mb
-      - US_1254 | 9.76Mb
-      - US_1256 | 8.90Mb
-      - US_1258 | 6.55Mb
-      - US_1259 |10.00Mb
-      - US_1260 |11.27Mb
-      - US_137 TG@peekfun
-      - US_138 TG@peekfun
-      - US_140 TG@peekfun
-      - US_1435
-      - US_1552
-      - US_1620 | 8.17Mb
-      - US_1901
-      - US_34
-      - ZZ_164 TG@peekfun
-      - ZZ_165 TG@peekfun
-      - ZZ_166 TG@peekfun
-      - ZZ_167 TG@peekfun
-      - ZZ_168 TG@peekfun
-      - ZZ_169 TG@peekfun
-      - ZZ_170 TG@peekfun
-      - ZZ_55
-      - ZZ_741
+      - "| 2.51Mb"
+      - "| 2.72Mb"
+      - "| 2.76Mb"
+      - "| 2.88Mb"
+      - "| 2.90Mb"
+      - "| 2.91Mb"
+      - "| 2.98Mb"
+      - "| 2.99Mb"
+      - "| 3.11Mb"
+      - "| 3.37Mb"
+      - "| 4.00Mb"
+      - "| 4.24Mb"
+      - "| 4.31Mb"
+      - "| 4.71Mb"
+      - "| 4.79Mb"
+      - "| 4.89Mb"
+      - "| 4.95Mb"
+      - "| 5.05Mb"
+      - "| 5.08Mb"
+      - "| 5.10Mb"
+      - "| 5.19Mb"
+      - "| 5.27Mb"
+      - "| 5.49Mb"
+      - "| 6.51Mb"
+      - "| 8.10Mb"
+      - "| 8.19Mb"
+      - "| 8.84Mb"
+      - "|22.87Mb"
+      - "|32.41Mb"
+      - "|59.38Mb"
+      - DE_417 | 8.82Mb
+      - DE_422 |11.22Mb
+      - DE_424 |21.98Mb
+      - DE_425 | 3.72Mb
+      - DE_429 |10.83Mb
+      - DE_437 |33.11Mb
+      - DE_440 |34.34Mb
+      - DE_442 | 7.99Mb
+      - DE_452 |28.19Mb
+      - DE_462 | 5.72Mb
+      - DE_489 |31.36Mb
+      - DE_492 |22.01Mb
+      - DE_495 |34.04Mb
+      - DE_506 |42.30Mb
+      - DE_511 |23.49Mb
+      - DE_513 |12.45Mb
+      - DE_525 | 5.51Mb
+      - DE_531 |10.53Mb
+      - DE_532 |11.84Mb
+      - DE_540 | 6.46Mb
+      - DE_543 |10.73Mb
+      - DE_553 |45.60Mb
+      - DE_557 |51.77Mb
+      - DE_558 |44.97Mb
+      - DE_564 |10.57Mb
+      - DE_612 | 9.43Mb
+      - DE_617 |14.04Mb
+      - DE_76 TG@peekfun
+      - DE_79 TG@peekfun
+      - DE_83 TG@peekfun
+      - FR_85 TG@peekfun
+      - FR_86 TG@peekfun
+      - GB_716 |28.28Mb
+      - GB_739 |30.60Mb
+      - GB_741 |42.72Mb
+      - GB_88 TG@peekfun
+      - GB_94 TG@peekfun
+      - HK_99 TG@peekfun
+      - ID_103 TG@peekfun
+      - IN_104 TG@peekfun
+      - IN_105 TG@peekfun
+      - IR_106 TG@peekfun
+      - JP_108 TG@peekfun
+      - JP_109 TG@peekfun
+      - JP_110 TG@peekfun
+      - JP_111 TG@peekfun
+      - JP_112
+      - JP_112 TG@peekfun
+      - JP_114
+      - JP_114 TG@peekfun
+      - LT_1002 |42.91Mb
+      - LT_1005 | 3.60Mb
+      - LT_1007 |28.74Mb
+      - LT_1015 | 3.61Mb
+      - LT_1019 | 4.33Mb
+      - LT_1022 | 3.80Mb
+      - LT_1023 | 3.44Mb
+      - LT_1026 |12.79Mb
+      - LT_1027 | 1.87Mb
+      - LT_117 TG@peekfun
+      - LT_120 TG@peekfun
+      - LT_122 | 3.89Mb
+      - LT_123 TG@peekfun
+      - LT_124 TG@peekfun
+      - LT_125 TG@peekfun
+      - LT_126 TG@peekfun
+      - LT_135 TG@peekfun
+      - LT_136 TG@peekfun
+      - LT_32 | 2.86Mb
+      - LT_899 | 2.40Mb
+      - LT_903 |12.98Mb
+      - LT_915 |11.61Mb
+      - LT_917 | 4.39Mb
+      - LT_926 | 7.38Mb
+      - LT_928 | 2.81Mb
+      - LT_942 |14.03Mb
+      - LT_948 | 7.41Mb
+      - LT_949 | 9.71Mb
+      - LT_951 |40.35Mb
+      - LT_954 | 2.26Mb
+      - LT_963 |36.01Mb
+      - LT_964 |42.94Mb
+      - LT_967 |12.68Mb
+      - LT_968 |12.40Mb
+      - LT_973 | 7.80Mb
+      - LT_975 |35.61Mb
+      - LT_976 |36.35Mb
+      - LT_977 |18.05Mb
+      - LT_986 | 5.02Mb
+      - LT_992 |28.75Mb
+      - LT_994 |31.54Mb
+      - LT_995 |27.15Mb
+      - LT_996 |29.12Mb
+      - LT_997 |30.07Mb
+      - LT_998 |36.54Mb
+      - LT_999 |11.59Mb
+      - NL_141 TG@peekfun
+      - NL_146 TG@peekfun
+      - NL_149 TG@peekfun
+      - NL_463
+      - Relay_ |11.64Mb
+      - Relay_🇯🇵JP-🇯🇵JP_113 |25.22Mb
+      - Relay_🇺🇸US-🇺🇸US_81 |11.01Mb
+      - Relay_🇺🇸US-🇺🇸US_87
+      - RO_1117 | 3.57Mb
+      - RO_1150 |80.02Mb
+      - RO_157 TG@peekfun
+      - RO_158 TG@peekfun
+      - RU_162 TG@peekfun
+      - RU_501
+      - SG_149
+      - SG_150
+      - SG_165 TG@peekfun
+      - SG_166 TG@peekfun
+      - SG_167 TG@peekfun
+      - TW_169 TG@peekfun
+      - TW_170 TG@peekfun
+      - TW_171 TG@peekfun
+      - TW_172 TG@peekfun
+      - TW_173 TG@peekfun
+      - TW_594
+      - US_180 TG@peekfun
+      - US_186 TG@peekfun
+      - US_187 TG@peekfun
+      - US_188 TG@peekfun
+      - US_189 TG@peekfun
+      - US_190 TG@peekfun
+      - US_191 TG@peekfun
+      - US_193 TG@peekfun
+      - US_194 TG@peekfun
+      - US_195 TG@peekfun
+      - US_197 TG@peekfun
+      - US_198 TG@peekfun
+      - US_200 TG@peekfun
+      - US_202 TG@peekfun
+      - US_203 TG@peekfun
+      - US_205 TG@peekfun
+      - US_2277
+      - US_273
+      - ZA_208 TG@peekfun
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "| 3.25Mb"
-      - "| 3.67Mb"
-      - "| 4.09Mb"
-      - "| 4.20Mb"
-      - "| 4.28Mb"
-      - "| 4.58Mb"
-      - "| 5.48Mb"
-      - "| 6.40Mb"
-      - "| 7.64Mb"
-      - "| 8.43Mb"
-      - "| 9.01Mb"
-      - "|11.23Mb"
-      - "|12.91Mb"
-      - "|28.27Mb"
-      - "|30.23Mb"
-      - "|34.88Mb"
-      - AU_02 TG@peekfun
-      - AU_29
-      - CA_187 |96.50Mb
-      - CA_188 |128.97Mb
-      - CA_189 |160.09Mb
-      - CA_190 |118.73Mb
-      - CA_191 |120.84Mb
-      - CA_192 |106.27Mb
-      - CA_193 |159.22Mb
-      - CA_194 |105.43Mb
-      - CN_375 | 9.68Mb
-      - CN_380 | 8.02Mb
-      - CN_381 | 7.75Mb
-      - CN_384 | 3.24Mb
-      - CY_50 TG@peekfun
-      - DE_421 |31.46Mb
-      - DE_422
-      - DE_422 |23.14Mb
-      - DE_423 |12.57Mb
-      - DE_424 |27.11Mb
-      - DE_443 |19.79Mb
-      - DE_445 | 5.27Mb
-      - DE_456 | 5.25Mb
-      - DE_457 | 3.96Mb
-      - DE_458 | 5.64Mb
-      - DE_461 | 4.16Mb
-      - DE_462 | 5.19Mb
-      - DE_464 | 5.11Mb
-      - DE_466 |42.13Mb
-      - DE_467 |57.12Mb
-      - DE_469 |41.33Mb
-      - DE_473 |10.86Mb
-      - DE_474 | 9.36Mb
-      - DE_475 |15.40Mb
-      - DE_476 |15.61Mb
-      - DE_477 | 5.55Mb
-      - DE_479 |30.73Mb
-      - DE_481 |52.29Mb
-      - DE_482 |10.97Mb
-      - DE_483 |25.87Mb
-      - DE_484 |10.43Mb
-      - DE_488 |23.96Mb
-      - DE_490 |21.86Mb
-      - DE_492 |41.31Mb
-      - DE_494 |10.39Mb
-      - DE_499 |54.21Mb
-      - DE_501 |47.55Mb
-      - DE_502 |27.62Mb
-      - DE_503 |21.75Mb
-      - DE_505 |39.04Mb
-      - DE_508 |44.12Mb
-      - DE_512 | 6.74Mb
-      - DE_52 TG@peekfun
-      - DE_53 TG@peekfun
-      - DE_534 | 6.53Mb
-      - DE_54 TG@peekfun
-      - DE_543 | 4.66Mb
-      - DE_585 |29.74Mb
-      - DE_587 |42.59Mb
-      - DE_588 |53.27Mb
-      - DE_589 |45.66Mb
-      - DE_591 |23.93Mb
-      - DE_592 |23.89Mb
-      - DE_594 |19.48Mb
-      - DE_595 | 4.96Mb
-      - DE_600 |14.22Mb
-      - DE_601 |34.21Mb
-      - DE_602 | 9.27Mb
-      - DE_606 |10.98Mb
-      - DE_609 |29.39Mb
-      - DE_610 |36.78Mb
-      - DE_613 |25.57Mb
-      - DE_617 | 6.49Mb
-      - DE_619 |22.56Mb
-      - GB_246 |33.39Mb
-      - GB_249 | 4.12Mb
-      - GB_255 | 4.13Mb
-      - GB_258 | 5.86Mb
-      - GB_522
-      - GB_58 TG@peekfun
-      - GB_695 |73.23Mb
-      - GB_696 |72.83Mb
-      - GB_698 | 6.60Mb
-      - GB_701 | 5.69Mb
-      - GB_715 |65.28Mb
-      - GB_716 | 6.68Mb
-      - GB_717 |11.10Mb
-      - GB_719 | 6.66Mb
-      - GB_721 |34.25Mb
-      - IN_68 TG@peekfun
-      - JP_625
-      - JP_70 TG@peekfun
-      - JP_72 TG@peekfun
-      - JP_73 TG@peekfun
-      - JP_74 TG@peekfun
-      - JP_797 | 3.56Mb
-      - LT_25
-      - LT_658
-      - LT_866 | 7.20Mb
-      - LT_869 | 2.85Mb
-      - LT_875 |41.49Mb
-      - LT_876 |16.20Mb
-      - LT_879 |26.81Mb
-      - LT_88 TG@peekfun
-      - LT_881 | 4.71Mb
-      - LT_882 | 5.35Mb
-      - LT_895 | 5.03Mb
-      - LT_91 TG@peekfun
-      - LT_910 | 6.51Mb
-      - LT_914 |31.66Mb
-      - LT_920 |12.13Mb
-      - LT_921 |11.88Mb
-      - LT_924 |13.69Mb
-      - LT_925 |15.43Mb
-      - LT_926 |14.72Mb
-      - LT_937 | 9.18Mb
-      - LT_938 | 4.13Mb
-      - LT_940 |12.09Mb
-      - LT_941 |16.60Mb
-      - LT_942 |11.22Mb
-      - LT_943 |12.09Mb
-      - LT_944 |40.63Mb
-      - LT_946 |15.19Mb
-      - LT_950 |14.10Mb
-      - LT_954 |73.38Mb
-      - LT_955 | 9.19Mb
-      - LT_956 | 3.41Mb
-      - LT_958 | 7.13Mb
-      - LT_960 |17.98Mb
-      - NL_360 | 2.12Mb
-      - NL_93 TG@peekfun
-      - NL_94 TG@peekfun
-      - NL_95 TG@peekfun
-      - NL_96 TG@peekfun
-      - NL_970 |26.22Mb
-      - NL_98 TG@peekfun
-      - Relay_🇨🇳CN-🇯🇵JP_05
-      - Relay_🇸🇬SG-🇨🇦CA_27
-      - Relay_🇺🇸US-🇷🇺RU_2136
-      - RO_101 TG@peekfun
-      - RO_102 TG@peekfun
-      - RO_1035 |33.90Mb
-      - RO_1036 |33.12Mb
-      - RO_1042 |22.89Mb
-      - RO_1047 |34.41Mb
-      - RO_1048 |17.83Mb
-      - RO_1050 |10.61Mb
-      - RO_1052 |29.09Mb
-      - RO_1054 |37.74Mb
-      - RO_1059 |28.71Mb
-      - RO_1068 |28.81Mb
-      - RO_1078 |21.83Mb
-      - RU_105 TG@peekfun
-      - RU_106 TG@peekfun
-      - RU_107 TG@peekfun
-      - RU_109 TG@peekfun
-      - RU_110 TG@peekfun
-      - RU_112 TG@peekfun
-      - RU_114 TG@peekfun
-      - RU_115 TG@peekfun
-      - RU_116 TG@peekfun
-      - RU_117 TG@peekfun
-      - RU_118 TG@peekfun
-      - RU_119 TG@peekfun
-      - RU_121 TG@peekfun
-      - RU_126 TG@peekfun
-      - RU_128 TG@peekfun
-      - RU_397 | 4.88Mb
-      - RU_724
-      - RU_744
-      - RU_746
-      - RU_757
-      - RU_760
-      - US_1247 |10.38Mb
-      - US_1248 | 4.41Mb
-      - US_1250 | 7.29Mb
-      - US_1251 | 8.43Mb
-      - US_1252 |11.41Mb
-      - US_1253 | 9.77Mb
-      - US_1254 | 9.76Mb
-      - US_1256 | 8.90Mb
-      - US_1258 | 6.55Mb
-      - US_1259 |10.00Mb
-      - US_1260 |11.27Mb
-      - US_137 TG@peekfun
-      - US_138 TG@peekfun
-      - US_140 TG@peekfun
-      - US_1435
-      - US_1552
-      - US_1620 | 8.17Mb
-      - US_1901
-      - US_34
-      - ZZ_164 TG@peekfun
-      - ZZ_165 TG@peekfun
-      - ZZ_166 TG@peekfun
-      - ZZ_167 TG@peekfun
-      - ZZ_168 TG@peekfun
-      - ZZ_169 TG@peekfun
-      - ZZ_170 TG@peekfun
-      - ZZ_55
-      - ZZ_741
+      - "| 2.51Mb"
+      - "| 2.72Mb"
+      - "| 2.76Mb"
+      - "| 2.88Mb"
+      - "| 2.90Mb"
+      - "| 2.91Mb"
+      - "| 2.98Mb"
+      - "| 2.99Mb"
+      - "| 3.11Mb"
+      - "| 3.37Mb"
+      - "| 4.00Mb"
+      - "| 4.24Mb"
+      - "| 4.31Mb"
+      - "| 4.71Mb"
+      - "| 4.79Mb"
+      - "| 4.89Mb"
+      - "| 4.95Mb"
+      - "| 5.05Mb"
+      - "| 5.08Mb"
+      - "| 5.10Mb"
+      - "| 5.19Mb"
+      - "| 5.27Mb"
+      - "| 5.49Mb"
+      - "| 6.51Mb"
+      - "| 8.10Mb"
+      - "| 8.19Mb"
+      - "| 8.84Mb"
+      - "|22.87Mb"
+      - "|32.41Mb"
+      - "|59.38Mb"
+      - DE_417 | 8.82Mb
+      - DE_422 |11.22Mb
+      - DE_424 |21.98Mb
+      - DE_425 | 3.72Mb
+      - DE_429 |10.83Mb
+      - DE_437 |33.11Mb
+      - DE_440 |34.34Mb
+      - DE_442 | 7.99Mb
+      - DE_452 |28.19Mb
+      - DE_462 | 5.72Mb
+      - DE_489 |31.36Mb
+      - DE_492 |22.01Mb
+      - DE_495 |34.04Mb
+      - DE_506 |42.30Mb
+      - DE_511 |23.49Mb
+      - DE_513 |12.45Mb
+      - DE_525 | 5.51Mb
+      - DE_531 |10.53Mb
+      - DE_532 |11.84Mb
+      - DE_540 | 6.46Mb
+      - DE_543 |10.73Mb
+      - DE_553 |45.60Mb
+      - DE_557 |51.77Mb
+      - DE_558 |44.97Mb
+      - DE_564 |10.57Mb
+      - DE_612 | 9.43Mb
+      - DE_617 |14.04Mb
+      - DE_76 TG@peekfun
+      - DE_79 TG@peekfun
+      - DE_83 TG@peekfun
+      - FR_85 TG@peekfun
+      - FR_86 TG@peekfun
+      - GB_716 |28.28Mb
+      - GB_739 |30.60Mb
+      - GB_741 |42.72Mb
+      - GB_88 TG@peekfun
+      - GB_94 TG@peekfun
+      - HK_99 TG@peekfun
+      - ID_103 TG@peekfun
+      - IN_104 TG@peekfun
+      - IN_105 TG@peekfun
+      - IR_106 TG@peekfun
+      - JP_108 TG@peekfun
+      - JP_109 TG@peekfun
+      - JP_110 TG@peekfun
+      - JP_111 TG@peekfun
+      - JP_112
+      - JP_112 TG@peekfun
+      - JP_114
+      - JP_114 TG@peekfun
+      - LT_1002 |42.91Mb
+      - LT_1005 | 3.60Mb
+      - LT_1007 |28.74Mb
+      - LT_1015 | 3.61Mb
+      - LT_1019 | 4.33Mb
+      - LT_1022 | 3.80Mb
+      - LT_1023 | 3.44Mb
+      - LT_1026 |12.79Mb
+      - LT_1027 | 1.87Mb
+      - LT_117 TG@peekfun
+      - LT_120 TG@peekfun
+      - LT_122 | 3.89Mb
+      - LT_123 TG@peekfun
+      - LT_124 TG@peekfun
+      - LT_125 TG@peekfun
+      - LT_126 TG@peekfun
+      - LT_135 TG@peekfun
+      - LT_136 TG@peekfun
+      - LT_32 | 2.86Mb
+      - LT_899 | 2.40Mb
+      - LT_903 |12.98Mb
+      - LT_915 |11.61Mb
+      - LT_917 | 4.39Mb
+      - LT_926 | 7.38Mb
+      - LT_928 | 2.81Mb
+      - LT_942 |14.03Mb
+      - LT_948 | 7.41Mb
+      - LT_949 | 9.71Mb
+      - LT_951 |40.35Mb
+      - LT_954 | 2.26Mb
+      - LT_963 |36.01Mb
+      - LT_964 |42.94Mb
+      - LT_967 |12.68Mb
+      - LT_968 |12.40Mb
+      - LT_973 | 7.80Mb
+      - LT_975 |35.61Mb
+      - LT_976 |36.35Mb
+      - LT_977 |18.05Mb
+      - LT_986 | 5.02Mb
+      - LT_992 |28.75Mb
+      - LT_994 |31.54Mb
+      - LT_995 |27.15Mb
+      - LT_996 |29.12Mb
+      - LT_997 |30.07Mb
+      - LT_998 |36.54Mb
+      - LT_999 |11.59Mb
+      - NL_141 TG@peekfun
+      - NL_146 TG@peekfun
+      - NL_149 TG@peekfun
+      - NL_463
+      - Relay_ |11.64Mb
+      - Relay_🇯🇵JP-🇯🇵JP_113 |25.22Mb
+      - Relay_🇺🇸US-🇺🇸US_81 |11.01Mb
+      - Relay_🇺🇸US-🇺🇸US_87
+      - RO_1117 | 3.57Mb
+      - RO_1150 |80.02Mb
+      - RO_157 TG@peekfun
+      - RO_158 TG@peekfun
+      - RU_162 TG@peekfun
+      - RU_501
+      - SG_149
+      - SG_150
+      - SG_165 TG@peekfun
+      - SG_166 TG@peekfun
+      - SG_167 TG@peekfun
+      - TW_169 TG@peekfun
+      - TW_170 TG@peekfun
+      - TW_171 TG@peekfun
+      - TW_172 TG@peekfun
+      - TW_173 TG@peekfun
+      - TW_594
+      - US_180 TG@peekfun
+      - US_186 TG@peekfun
+      - US_187 TG@peekfun
+      - US_188 TG@peekfun
+      - US_189 TG@peekfun
+      - US_190 TG@peekfun
+      - US_191 TG@peekfun
+      - US_193 TG@peekfun
+      - US_194 TG@peekfun
+      - US_195 TG@peekfun
+      - US_197 TG@peekfun
+      - US_198 TG@peekfun
+      - US_200 TG@peekfun
+      - US_202 TG@peekfun
+      - US_203 TG@peekfun
+      - US_205 TG@peekfun
+      - US_2277
+      - US_273
+      - ZA_208 TG@peekfun
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "| 3.25Mb"
-      - "| 3.67Mb"
-      - "| 4.09Mb"
-      - "| 4.20Mb"
-      - "| 4.28Mb"
-      - "| 4.58Mb"
-      - "| 5.48Mb"
-      - "| 6.40Mb"
-      - "| 7.64Mb"
-      - "| 8.43Mb"
-      - "| 9.01Mb"
-      - "|11.23Mb"
-      - "|12.91Mb"
-      - "|28.27Mb"
-      - "|30.23Mb"
-      - "|34.88Mb"
-      - AU_02 TG@peekfun
-      - AU_29
-      - CA_187 |96.50Mb
-      - CA_188 |128.97Mb
-      - CA_189 |160.09Mb
-      - CA_190 |118.73Mb
-      - CA_191 |120.84Mb
-      - CA_192 |106.27Mb
-      - CA_193 |159.22Mb
-      - CA_194 |105.43Mb
-      - CN_375 | 9.68Mb
-      - CN_380 | 8.02Mb
-      - CN_381 | 7.75Mb
-      - CN_384 | 3.24Mb
-      - CY_50 TG@peekfun
-      - DE_421 |31.46Mb
-      - DE_422
-      - DE_422 |23.14Mb
-      - DE_423 |12.57Mb
-      - DE_424 |27.11Mb
-      - DE_443 |19.79Mb
-      - DE_445 | 5.27Mb
-      - DE_456 | 5.25Mb
-      - DE_457 | 3.96Mb
-      - DE_458 | 5.64Mb
-      - DE_461 | 4.16Mb
-      - DE_462 | 5.19Mb
-      - DE_464 | 5.11Mb
-      - DE_466 |42.13Mb
-      - DE_467 |57.12Mb
-      - DE_469 |41.33Mb
-      - DE_473 |10.86Mb
-      - DE_474 | 9.36Mb
-      - DE_475 |15.40Mb
-      - DE_476 |15.61Mb
-      - DE_477 | 5.55Mb
-      - DE_479 |30.73Mb
-      - DE_481 |52.29Mb
-      - DE_482 |10.97Mb
-      - DE_483 |25.87Mb
-      - DE_484 |10.43Mb
-      - DE_488 |23.96Mb
-      - DE_490 |21.86Mb
-      - DE_492 |41.31Mb
-      - DE_494 |10.39Mb
-      - DE_499 |54.21Mb
-      - DE_501 |47.55Mb
-      - DE_502 |27.62Mb
-      - DE_503 |21.75Mb
-      - DE_505 |39.04Mb
-      - DE_508 |44.12Mb
-      - DE_512 | 6.74Mb
-      - DE_52 TG@peekfun
-      - DE_53 TG@peekfun
-      - DE_534 | 6.53Mb
-      - DE_54 TG@peekfun
-      - DE_543 | 4.66Mb
-      - DE_585 |29.74Mb
-      - DE_587 |42.59Mb
-      - DE_588 |53.27Mb
-      - DE_589 |45.66Mb
-      - DE_591 |23.93Mb
-      - DE_592 |23.89Mb
-      - DE_594 |19.48Mb
-      - DE_595 | 4.96Mb
-      - DE_600 |14.22Mb
-      - DE_601 |34.21Mb
-      - DE_602 | 9.27Mb
-      - DE_606 |10.98Mb
-      - DE_609 |29.39Mb
-      - DE_610 |36.78Mb
-      - DE_613 |25.57Mb
-      - DE_617 | 6.49Mb
-      - DE_619 |22.56Mb
-      - GB_246 |33.39Mb
-      - GB_249 | 4.12Mb
-      - GB_255 | 4.13Mb
-      - GB_258 | 5.86Mb
-      - GB_522
-      - GB_58 TG@peekfun
-      - GB_695 |73.23Mb
-      - GB_696 |72.83Mb
-      - GB_698 | 6.60Mb
-      - GB_701 | 5.69Mb
-      - GB_715 |65.28Mb
-      - GB_716 | 6.68Mb
-      - GB_717 |11.10Mb
-      - GB_719 | 6.66Mb
-      - GB_721 |34.25Mb
-      - IN_68 TG@peekfun
-      - JP_625
-      - JP_70 TG@peekfun
-      - JP_72 TG@peekfun
-      - JP_73 TG@peekfun
-      - JP_74 TG@peekfun
-      - JP_797 | 3.56Mb
-      - LT_25
-      - LT_658
-      - LT_866 | 7.20Mb
-      - LT_869 | 2.85Mb
-      - LT_875 |41.49Mb
-      - LT_876 |16.20Mb
-      - LT_879 |26.81Mb
-      - LT_88 TG@peekfun
-      - LT_881 | 4.71Mb
-      - LT_882 | 5.35Mb
-      - LT_895 | 5.03Mb
-      - LT_91 TG@peekfun
-      - LT_910 | 6.51Mb
-      - LT_914 |31.66Mb
-      - LT_920 |12.13Mb
-      - LT_921 |11.88Mb
-      - LT_924 |13.69Mb
-      - LT_925 |15.43Mb
-      - LT_926 |14.72Mb
-      - LT_937 | 9.18Mb
-      - LT_938 | 4.13Mb
-      - LT_940 |12.09Mb
-      - LT_941 |16.60Mb
-      - LT_942 |11.22Mb
-      - LT_943 |12.09Mb
-      - LT_944 |40.63Mb
-      - LT_946 |15.19Mb
-      - LT_950 |14.10Mb
-      - LT_954 |73.38Mb
-      - LT_955 | 9.19Mb
-      - LT_956 | 3.41Mb
-      - LT_958 | 7.13Mb
-      - LT_960 |17.98Mb
-      - NL_360 | 2.12Mb
-      - NL_93 TG@peekfun
-      - NL_94 TG@peekfun
-      - NL_95 TG@peekfun
-      - NL_96 TG@peekfun
-      - NL_970 |26.22Mb
-      - NL_98 TG@peekfun
-      - Relay_🇨🇳CN-🇯🇵JP_05
-      - Relay_🇸🇬SG-🇨🇦CA_27
-      - Relay_🇺🇸US-🇷🇺RU_2136
-      - RO_101 TG@peekfun
-      - RO_102 TG@peekfun
-      - RO_1035 |33.90Mb
-      - RO_1036 |33.12Mb
-      - RO_1042 |22.89Mb
-      - RO_1047 |34.41Mb
-      - RO_1048 |17.83Mb
-      - RO_1050 |10.61Mb
-      - RO_1052 |29.09Mb
-      - RO_1054 |37.74Mb
-      - RO_1059 |28.71Mb
-      - RO_1068 |28.81Mb
-      - RO_1078 |21.83Mb
-      - RU_105 TG@peekfun
-      - RU_106 TG@peekfun
-      - RU_107 TG@peekfun
-      - RU_109 TG@peekfun
-      - RU_110 TG@peekfun
-      - RU_112 TG@peekfun
-      - RU_114 TG@peekfun
-      - RU_115 TG@peekfun
-      - RU_116 TG@peekfun
-      - RU_117 TG@peekfun
-      - RU_118 TG@peekfun
-      - RU_119 TG@peekfun
-      - RU_121 TG@peekfun
-      - RU_126 TG@peekfun
-      - RU_128 TG@peekfun
-      - RU_397 | 4.88Mb
-      - RU_724
-      - RU_744
-      - RU_746
-      - RU_757
-      - RU_760
-      - US_1247 |10.38Mb
-      - US_1248 | 4.41Mb
-      - US_1250 | 7.29Mb
-      - US_1251 | 8.43Mb
-      - US_1252 |11.41Mb
-      - US_1253 | 9.77Mb
-      - US_1254 | 9.76Mb
-      - US_1256 | 8.90Mb
-      - US_1258 | 6.55Mb
-      - US_1259 |10.00Mb
-      - US_1260 |11.27Mb
-      - US_137 TG@peekfun
-      - US_138 TG@peekfun
-      - US_140 TG@peekfun
-      - US_1435
-      - US_1552
-      - US_1620 | 8.17Mb
-      - US_1901
-      - US_34
-      - ZZ_164 TG@peekfun
-      - ZZ_165 TG@peekfun
-      - ZZ_166 TG@peekfun
-      - ZZ_167 TG@peekfun
-      - ZZ_168 TG@peekfun
-      - ZZ_169 TG@peekfun
-      - ZZ_170 TG@peekfun
-      - ZZ_55
-      - ZZ_741
+      - "| 2.51Mb"
+      - "| 2.72Mb"
+      - "| 2.76Mb"
+      - "| 2.88Mb"
+      - "| 2.90Mb"
+      - "| 2.91Mb"
+      - "| 2.98Mb"
+      - "| 2.99Mb"
+      - "| 3.11Mb"
+      - "| 3.37Mb"
+      - "| 4.00Mb"
+      - "| 4.24Mb"
+      - "| 4.31Mb"
+      - "| 4.71Mb"
+      - "| 4.79Mb"
+      - "| 4.89Mb"
+      - "| 4.95Mb"
+      - "| 5.05Mb"
+      - "| 5.08Mb"
+      - "| 5.10Mb"
+      - "| 5.19Mb"
+      - "| 5.27Mb"
+      - "| 5.49Mb"
+      - "| 6.51Mb"
+      - "| 8.10Mb"
+      - "| 8.19Mb"
+      - "| 8.84Mb"
+      - "|22.87Mb"
+      - "|32.41Mb"
+      - "|59.38Mb"
+      - DE_417 | 8.82Mb
+      - DE_422 |11.22Mb
+      - DE_424 |21.98Mb
+      - DE_425 | 3.72Mb
+      - DE_429 |10.83Mb
+      - DE_437 |33.11Mb
+      - DE_440 |34.34Mb
+      - DE_442 | 7.99Mb
+      - DE_452 |28.19Mb
+      - DE_462 | 5.72Mb
+      - DE_489 |31.36Mb
+      - DE_492 |22.01Mb
+      - DE_495 |34.04Mb
+      - DE_506 |42.30Mb
+      - DE_511 |23.49Mb
+      - DE_513 |12.45Mb
+      - DE_525 | 5.51Mb
+      - DE_531 |10.53Mb
+      - DE_532 |11.84Mb
+      - DE_540 | 6.46Mb
+      - DE_543 |10.73Mb
+      - DE_553 |45.60Mb
+      - DE_557 |51.77Mb
+      - DE_558 |44.97Mb
+      - DE_564 |10.57Mb
+      - DE_612 | 9.43Mb
+      - DE_617 |14.04Mb
+      - DE_76 TG@peekfun
+      - DE_79 TG@peekfun
+      - DE_83 TG@peekfun
+      - FR_85 TG@peekfun
+      - FR_86 TG@peekfun
+      - GB_716 |28.28Mb
+      - GB_739 |30.60Mb
+      - GB_741 |42.72Mb
+      - GB_88 TG@peekfun
+      - GB_94 TG@peekfun
+      - HK_99 TG@peekfun
+      - ID_103 TG@peekfun
+      - IN_104 TG@peekfun
+      - IN_105 TG@peekfun
+      - IR_106 TG@peekfun
+      - JP_108 TG@peekfun
+      - JP_109 TG@peekfun
+      - JP_110 TG@peekfun
+      - JP_111 TG@peekfun
+      - JP_112
+      - JP_112 TG@peekfun
+      - JP_114
+      - JP_114 TG@peekfun
+      - LT_1002 |42.91Mb
+      - LT_1005 | 3.60Mb
+      - LT_1007 |28.74Mb
+      - LT_1015 | 3.61Mb
+      - LT_1019 | 4.33Mb
+      - LT_1022 | 3.80Mb
+      - LT_1023 | 3.44Mb
+      - LT_1026 |12.79Mb
+      - LT_1027 | 1.87Mb
+      - LT_117 TG@peekfun
+      - LT_120 TG@peekfun
+      - LT_122 | 3.89Mb
+      - LT_123 TG@peekfun
+      - LT_124 TG@peekfun
+      - LT_125 TG@peekfun
+      - LT_126 TG@peekfun
+      - LT_135 TG@peekfun
+      - LT_136 TG@peekfun
+      - LT_32 | 2.86Mb
+      - LT_899 | 2.40Mb
+      - LT_903 |12.98Mb
+      - LT_915 |11.61Mb
+      - LT_917 | 4.39Mb
+      - LT_926 | 7.38Mb
+      - LT_928 | 2.81Mb
+      - LT_942 |14.03Mb
+      - LT_948 | 7.41Mb
+      - LT_949 | 9.71Mb
+      - LT_951 |40.35Mb
+      - LT_954 | 2.26Mb
+      - LT_963 |36.01Mb
+      - LT_964 |42.94Mb
+      - LT_967 |12.68Mb
+      - LT_968 |12.40Mb
+      - LT_973 | 7.80Mb
+      - LT_975 |35.61Mb
+      - LT_976 |36.35Mb
+      - LT_977 |18.05Mb
+      - LT_986 | 5.02Mb
+      - LT_992 |28.75Mb
+      - LT_994 |31.54Mb
+      - LT_995 |27.15Mb
+      - LT_996 |29.12Mb
+      - LT_997 |30.07Mb
+      - LT_998 |36.54Mb
+      - LT_999 |11.59Mb
+      - NL_141 TG@peekfun
+      - NL_146 TG@peekfun
+      - NL_149 TG@peekfun
+      - NL_463
+      - Relay_ |11.64Mb
+      - Relay_🇯🇵JP-🇯🇵JP_113 |25.22Mb
+      - Relay_🇺🇸US-🇺🇸US_81 |11.01Mb
+      - Relay_🇺🇸US-🇺🇸US_87
+      - RO_1117 | 3.57Mb
+      - RO_1150 |80.02Mb
+      - RO_157 TG@peekfun
+      - RO_158 TG@peekfun
+      - RU_162 TG@peekfun
+      - RU_501
+      - SG_149
+      - SG_150
+      - SG_165 TG@peekfun
+      - SG_166 TG@peekfun
+      - SG_167 TG@peekfun
+      - TW_169 TG@peekfun
+      - TW_170 TG@peekfun
+      - TW_171 TG@peekfun
+      - TW_172 TG@peekfun
+      - TW_173 TG@peekfun
+      - TW_594
+      - US_180 TG@peekfun
+      - US_186 TG@peekfun
+      - US_187 TG@peekfun
+      - US_188 TG@peekfun
+      - US_189 TG@peekfun
+      - US_190 TG@peekfun
+      - US_191 TG@peekfun
+      - US_193 TG@peekfun
+      - US_194 TG@peekfun
+      - US_195 TG@peekfun
+      - US_197 TG@peekfun
+      - US_198 TG@peekfun
+      - US_200 TG@peekfun
+      - US_202 TG@peekfun
+      - US_203 TG@peekfun
+      - US_205 TG@peekfun
+      - US_2277
+      - US_273
+      - ZA_208 TG@peekfun
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1812,223 +1436,176 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "| 3.25Mb"
-      - "| 3.67Mb"
-      - "| 4.09Mb"
-      - "| 4.20Mb"
-      - "| 4.28Mb"
-      - "| 4.58Mb"
-      - "| 5.48Mb"
-      - "| 6.40Mb"
-      - "| 7.64Mb"
-      - "| 8.43Mb"
-      - "| 9.01Mb"
-      - "|11.23Mb"
-      - "|12.91Mb"
-      - "|28.27Mb"
-      - "|30.23Mb"
-      - "|34.88Mb"
-      - AU_02 TG@peekfun
-      - AU_29
-      - CA_187 |96.50Mb
-      - CA_188 |128.97Mb
-      - CA_189 |160.09Mb
-      - CA_190 |118.73Mb
-      - CA_191 |120.84Mb
-      - CA_192 |106.27Mb
-      - CA_193 |159.22Mb
-      - CA_194 |105.43Mb
-      - CN_375 | 9.68Mb
-      - CN_380 | 8.02Mb
-      - CN_381 | 7.75Mb
-      - CN_384 | 3.24Mb
-      - CY_50 TG@peekfun
-      - DE_421 |31.46Mb
-      - DE_422
-      - DE_422 |23.14Mb
-      - DE_423 |12.57Mb
-      - DE_424 |27.11Mb
-      - DE_443 |19.79Mb
-      - DE_445 | 5.27Mb
-      - DE_456 | 5.25Mb
-      - DE_457 | 3.96Mb
-      - DE_458 | 5.64Mb
-      - DE_461 | 4.16Mb
-      - DE_462 | 5.19Mb
-      - DE_464 | 5.11Mb
-      - DE_466 |42.13Mb
-      - DE_467 |57.12Mb
-      - DE_469 |41.33Mb
-      - DE_473 |10.86Mb
-      - DE_474 | 9.36Mb
-      - DE_475 |15.40Mb
-      - DE_476 |15.61Mb
-      - DE_477 | 5.55Mb
-      - DE_479 |30.73Mb
-      - DE_481 |52.29Mb
-      - DE_482 |10.97Mb
-      - DE_483 |25.87Mb
-      - DE_484 |10.43Mb
-      - DE_488 |23.96Mb
-      - DE_490 |21.86Mb
-      - DE_492 |41.31Mb
-      - DE_494 |10.39Mb
-      - DE_499 |54.21Mb
-      - DE_501 |47.55Mb
-      - DE_502 |27.62Mb
-      - DE_503 |21.75Mb
-      - DE_505 |39.04Mb
-      - DE_508 |44.12Mb
-      - DE_512 | 6.74Mb
-      - DE_52 TG@peekfun
-      - DE_53 TG@peekfun
-      - DE_534 | 6.53Mb
-      - DE_54 TG@peekfun
-      - DE_543 | 4.66Mb
-      - DE_585 |29.74Mb
-      - DE_587 |42.59Mb
-      - DE_588 |53.27Mb
-      - DE_589 |45.66Mb
-      - DE_591 |23.93Mb
-      - DE_592 |23.89Mb
-      - DE_594 |19.48Mb
-      - DE_595 | 4.96Mb
-      - DE_600 |14.22Mb
-      - DE_601 |34.21Mb
-      - DE_602 | 9.27Mb
-      - DE_606 |10.98Mb
-      - DE_609 |29.39Mb
-      - DE_610 |36.78Mb
-      - DE_613 |25.57Mb
-      - DE_617 | 6.49Mb
-      - DE_619 |22.56Mb
-      - GB_246 |33.39Mb
-      - GB_249 | 4.12Mb
-      - GB_255 | 4.13Mb
-      - GB_258 | 5.86Mb
-      - GB_522
-      - GB_58 TG@peekfun
-      - GB_695 |73.23Mb
-      - GB_696 |72.83Mb
-      - GB_698 | 6.60Mb
-      - GB_701 | 5.69Mb
-      - GB_715 |65.28Mb
-      - GB_716 | 6.68Mb
-      - GB_717 |11.10Mb
-      - GB_719 | 6.66Mb
-      - GB_721 |34.25Mb
-      - IN_68 TG@peekfun
-      - JP_625
-      - JP_70 TG@peekfun
-      - JP_72 TG@peekfun
-      - JP_73 TG@peekfun
-      - JP_74 TG@peekfun
-      - JP_797 | 3.56Mb
-      - LT_25
-      - LT_658
-      - LT_866 | 7.20Mb
-      - LT_869 | 2.85Mb
-      - LT_875 |41.49Mb
-      - LT_876 |16.20Mb
-      - LT_879 |26.81Mb
-      - LT_88 TG@peekfun
-      - LT_881 | 4.71Mb
-      - LT_882 | 5.35Mb
-      - LT_895 | 5.03Mb
-      - LT_91 TG@peekfun
-      - LT_910 | 6.51Mb
-      - LT_914 |31.66Mb
-      - LT_920 |12.13Mb
-      - LT_921 |11.88Mb
-      - LT_924 |13.69Mb
-      - LT_925 |15.43Mb
-      - LT_926 |14.72Mb
-      - LT_937 | 9.18Mb
-      - LT_938 | 4.13Mb
-      - LT_940 |12.09Mb
-      - LT_941 |16.60Mb
-      - LT_942 |11.22Mb
-      - LT_943 |12.09Mb
-      - LT_944 |40.63Mb
-      - LT_946 |15.19Mb
-      - LT_950 |14.10Mb
-      - LT_954 |73.38Mb
-      - LT_955 | 9.19Mb
-      - LT_956 | 3.41Mb
-      - LT_958 | 7.13Mb
-      - LT_960 |17.98Mb
-      - NL_360 | 2.12Mb
-      - NL_93 TG@peekfun
-      - NL_94 TG@peekfun
-      - NL_95 TG@peekfun
-      - NL_96 TG@peekfun
-      - NL_970 |26.22Mb
-      - NL_98 TG@peekfun
-      - Relay_🇨🇳CN-🇯🇵JP_05
-      - Relay_🇸🇬SG-🇨🇦CA_27
-      - Relay_🇺🇸US-🇷🇺RU_2136
-      - RO_101 TG@peekfun
-      - RO_102 TG@peekfun
-      - RO_1035 |33.90Mb
-      - RO_1036 |33.12Mb
-      - RO_1042 |22.89Mb
-      - RO_1047 |34.41Mb
-      - RO_1048 |17.83Mb
-      - RO_1050 |10.61Mb
-      - RO_1052 |29.09Mb
-      - RO_1054 |37.74Mb
-      - RO_1059 |28.71Mb
-      - RO_1068 |28.81Mb
-      - RO_1078 |21.83Mb
-      - RU_105 TG@peekfun
-      - RU_106 TG@peekfun
-      - RU_107 TG@peekfun
-      - RU_109 TG@peekfun
-      - RU_110 TG@peekfun
-      - RU_112 TG@peekfun
-      - RU_114 TG@peekfun
-      - RU_115 TG@peekfun
-      - RU_116 TG@peekfun
-      - RU_117 TG@peekfun
-      - RU_118 TG@peekfun
-      - RU_119 TG@peekfun
-      - RU_121 TG@peekfun
-      - RU_126 TG@peekfun
-      - RU_128 TG@peekfun
-      - RU_397 | 4.88Mb
-      - RU_724
-      - RU_744
-      - RU_746
-      - RU_757
-      - RU_760
-      - US_1247 |10.38Mb
-      - US_1248 | 4.41Mb
-      - US_1250 | 7.29Mb
-      - US_1251 | 8.43Mb
-      - US_1252 |11.41Mb
-      - US_1253 | 9.77Mb
-      - US_1254 | 9.76Mb
-      - US_1256 | 8.90Mb
-      - US_1258 | 6.55Mb
-      - US_1259 |10.00Mb
-      - US_1260 |11.27Mb
-      - US_137 TG@peekfun
-      - US_138 TG@peekfun
-      - US_140 TG@peekfun
-      - US_1435
-      - US_1552
-      - US_1620 | 8.17Mb
-      - US_1901
-      - US_34
-      - ZZ_164 TG@peekfun
-      - ZZ_165 TG@peekfun
-      - ZZ_166 TG@peekfun
-      - ZZ_167 TG@peekfun
-      - ZZ_168 TG@peekfun
-      - ZZ_169 TG@peekfun
-      - ZZ_170 TG@peekfun
-      - ZZ_55
-      - ZZ_741
+      - "| 2.51Mb"
+      - "| 2.72Mb"
+      - "| 2.76Mb"
+      - "| 2.88Mb"
+      - "| 2.90Mb"
+      - "| 2.91Mb"
+      - "| 2.98Mb"
+      - "| 2.99Mb"
+      - "| 3.11Mb"
+      - "| 3.37Mb"
+      - "| 4.00Mb"
+      - "| 4.24Mb"
+      - "| 4.31Mb"
+      - "| 4.71Mb"
+      - "| 4.79Mb"
+      - "| 4.89Mb"
+      - "| 4.95Mb"
+      - "| 5.05Mb"
+      - "| 5.08Mb"
+      - "| 5.10Mb"
+      - "| 5.19Mb"
+      - "| 5.27Mb"
+      - "| 5.49Mb"
+      - "| 6.51Mb"
+      - "| 8.10Mb"
+      - "| 8.19Mb"
+      - "| 8.84Mb"
+      - "|22.87Mb"
+      - "|32.41Mb"
+      - "|59.38Mb"
+      - DE_417 | 8.82Mb
+      - DE_422 |11.22Mb
+      - DE_424 |21.98Mb
+      - DE_425 | 3.72Mb
+      - DE_429 |10.83Mb
+      - DE_437 |33.11Mb
+      - DE_440 |34.34Mb
+      - DE_442 | 7.99Mb
+      - DE_452 |28.19Mb
+      - DE_462 | 5.72Mb
+      - DE_489 |31.36Mb
+      - DE_492 |22.01Mb
+      - DE_495 |34.04Mb
+      - DE_506 |42.30Mb
+      - DE_511 |23.49Mb
+      - DE_513 |12.45Mb
+      - DE_525 | 5.51Mb
+      - DE_531 |10.53Mb
+      - DE_532 |11.84Mb
+      - DE_540 | 6.46Mb
+      - DE_543 |10.73Mb
+      - DE_553 |45.60Mb
+      - DE_557 |51.77Mb
+      - DE_558 |44.97Mb
+      - DE_564 |10.57Mb
+      - DE_612 | 9.43Mb
+      - DE_617 |14.04Mb
+      - DE_76 TG@peekfun
+      - DE_79 TG@peekfun
+      - DE_83 TG@peekfun
+      - FR_85 TG@peekfun
+      - FR_86 TG@peekfun
+      - GB_716 |28.28Mb
+      - GB_739 |30.60Mb
+      - GB_741 |42.72Mb
+      - GB_88 TG@peekfun
+      - GB_94 TG@peekfun
+      - HK_99 TG@peekfun
+      - ID_103 TG@peekfun
+      - IN_104 TG@peekfun
+      - IN_105 TG@peekfun
+      - IR_106 TG@peekfun
+      - JP_108 TG@peekfun
+      - JP_109 TG@peekfun
+      - JP_110 TG@peekfun
+      - JP_111 TG@peekfun
+      - JP_112
+      - JP_112 TG@peekfun
+      - JP_114
+      - JP_114 TG@peekfun
+      - LT_1002 |42.91Mb
+      - LT_1005 | 3.60Mb
+      - LT_1007 |28.74Mb
+      - LT_1015 | 3.61Mb
+      - LT_1019 | 4.33Mb
+      - LT_1022 | 3.80Mb
+      - LT_1023 | 3.44Mb
+      - LT_1026 |12.79Mb
+      - LT_1027 | 1.87Mb
+      - LT_117 TG@peekfun
+      - LT_120 TG@peekfun
+      - LT_122 | 3.89Mb
+      - LT_123 TG@peekfun
+      - LT_124 TG@peekfun
+      - LT_125 TG@peekfun
+      - LT_126 TG@peekfun
+      - LT_135 TG@peekfun
+      - LT_136 TG@peekfun
+      - LT_32 | 2.86Mb
+      - LT_899 | 2.40Mb
+      - LT_903 |12.98Mb
+      - LT_915 |11.61Mb
+      - LT_917 | 4.39Mb
+      - LT_926 | 7.38Mb
+      - LT_928 | 2.81Mb
+      - LT_942 |14.03Mb
+      - LT_948 | 7.41Mb
+      - LT_949 | 9.71Mb
+      - LT_951 |40.35Mb
+      - LT_954 | 2.26Mb
+      - LT_963 |36.01Mb
+      - LT_964 |42.94Mb
+      - LT_967 |12.68Mb
+      - LT_968 |12.40Mb
+      - LT_973 | 7.80Mb
+      - LT_975 |35.61Mb
+      - LT_976 |36.35Mb
+      - LT_977 |18.05Mb
+      - LT_986 | 5.02Mb
+      - LT_992 |28.75Mb
+      - LT_994 |31.54Mb
+      - LT_995 |27.15Mb
+      - LT_996 |29.12Mb
+      - LT_997 |30.07Mb
+      - LT_998 |36.54Mb
+      - LT_999 |11.59Mb
+      - NL_141 TG@peekfun
+      - NL_146 TG@peekfun
+      - NL_149 TG@peekfun
+      - NL_463
+      - Relay_ |11.64Mb
+      - Relay_🇯🇵JP-🇯🇵JP_113 |25.22Mb
+      - Relay_🇺🇸US-🇺🇸US_81 |11.01Mb
+      - Relay_🇺🇸US-🇺🇸US_87
+      - RO_1117 | 3.57Mb
+      - RO_1150 |80.02Mb
+      - RO_157 TG@peekfun
+      - RO_158 TG@peekfun
+      - RU_162 TG@peekfun
+      - RU_501
+      - SG_149
+      - SG_150
+      - SG_165 TG@peekfun
+      - SG_166 TG@peekfun
+      - SG_167 TG@peekfun
+      - TW_169 TG@peekfun
+      - TW_170 TG@peekfun
+      - TW_171 TG@peekfun
+      - TW_172 TG@peekfun
+      - TW_173 TG@peekfun
+      - TW_594
+      - US_180 TG@peekfun
+      - US_186 TG@peekfun
+      - US_187 TG@peekfun
+      - US_188 TG@peekfun
+      - US_189 TG@peekfun
+      - US_190 TG@peekfun
+      - US_191 TG@peekfun
+      - US_193 TG@peekfun
+      - US_194 TG@peekfun
+      - US_195 TG@peekfun
+      - US_197 TG@peekfun
+      - US_198 TG@peekfun
+      - US_200 TG@peekfun
+      - US_202 TG@peekfun
+      - US_203 TG@peekfun
+      - US_205 TG@peekfun
+      - US_2277
+      - US_273
+      - ZA_208 TG@peekfun
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
